@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Esquema STA", "Esquema STA.sqlproj", "{5C9AA811-FD31-4959-B544-5EC6EDAC6E03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C9AA811-FD31-4959-B544-5EC6EDAC6E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9AA811-FD31-4959-B544-5EC6EDAC6E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9AA811-FD31-4959-B544-5EC6EDAC6E03}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5C9AA811-FD31-4959-B544-5EC6EDAC6E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9AA811-FD31-4959-B544-5EC6EDAC6E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9AA811-FD31-4959-B544-5EC6EDAC6E03}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {776FD2C5-AC1D-41D3-831A-78F1252C0AC7}
+	EndGlobalSection
+EndGlobal

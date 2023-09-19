@@ -1,0 +1,8 @@
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Esquema STA\bin\Debug\Esquema STA.dacpac
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Esquema STA\obj\Debug\Esquema STA.sqlproj.AssemblyReference.cache
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Esquema STA\obj\Debug\Model.xml
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Esquema STA\obj\Debug\refactor.xml
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Esquema STA\obj\Debug\postdeploy.sql
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Esquema STA\obj\Debug\predeploy.sql
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Esquema STA\obj\Debug\Esquema_STA.dll
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Esquema STA\obj\Debug\Esquema_STA.pdb

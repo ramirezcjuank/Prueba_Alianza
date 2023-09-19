@@ -1,0 +1,10 @@
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\bin\Debug\Esquema DW.dacpac
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\bin\Debug\Prueba_Alianza.dll
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\bin\Debug\Prueba_Alianza.pdb
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\obj\Debug\Esquema DW.sqlproj.AssemblyReference.cache
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\obj\Debug\Model.xml
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\obj\Debug\refactor.xml
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\obj\Debug\postdeploy.sql
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\obj\Debug\predeploy.sql
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\obj\Debug\Prueba_Alianza.dll
+C:\Users\ramir\OneDrive\Documentos\Git\Prueba_Alianza\Prueba_Alianza\obj\Debug\Prueba_Alianza.pdb

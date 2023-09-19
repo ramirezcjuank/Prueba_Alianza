@@ -1,0 +1,2414 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/17/2023 5:47:41 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-4J5O50P"
+  DTS:CreatorName="DESKTOP-4J5O50P\Juan Carlos"
+  DTS:DTSID="{64061304-E89C-47D3-BDFE-2B05CA095E48}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5314.0"
+  DTS:LocaleID="9226"
+  DTS:ObjectName="ETL_SCD"
+  DTS:PackageType="5"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{8E582562-CC3A-4E2A-A8B4-1E69C8D2382B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Tarea Flujo de datos"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{11F6C414-3A03-40A5-864A-A054C8ED92D8}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Flujo de datos">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Tarea Flujo de datos\Columna derivada"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="Columna derivada"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[EndDate]"
+                      dataType="dbTimeStamp"
+                      description="EndDate"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[EndDate]"
+                      name="EndDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_DBTIMESTAMP)(@[System::StartTime])</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_DBTIMESTAMP)(@[System::StartTime])</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Columna derivada 1"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="Columna derivada 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada].Columns[StarDate]"
+                      dataType="dbTimeStamp"
+                      description="StarDate"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada].Columns[StarDate]"
+                      name="StarDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_DBTIMESTAMP)(@[System::StartTime])</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_DBTIMESTAMP)(@[System::StartTime])</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Comando de OLE DB"
+              componentClassID="Microsoft.OLEDBCommand"
+              contactInfo="Comando de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Ejecuta una instrucción SQL para cada fila de un flujo de datos. Por ejemplo, se usa para llamar al procedimiento almacenado de configuración de nuevo empleado para cada fila de la tabla de nuevos empleados. Nota: la ejecución de una instrucción SQL para cada fila de un flujo de datos de gran tamaño puede tardar mucho tiempo."
+              name="Comando de OLE DB"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[DW_DimProducts] SET [EndDate] = ? WHERE [ProductID] = ? AND [EndDate] IS NULL</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{B2EFF2A0-430B-45CB-B995-EC9A83587940}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[(LOCAL).DW_AdventureWorksLT2012]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB]"
+                  errorOrTruncationOperation="Ejecución de comando"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de comando de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_1]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB].Columns[EndDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="EndDate"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_0]"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[EndDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_0]"
+                      dataType="dbTimeStamp"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_1]"
+                      dataType="i4"
+                      name="Param_1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB.Outputs[Salida de comando de OLE DB]"
+                  exclusionGroup="1"
+                  name="Salida de comando de OLE DB"
+                  synchronousInputId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB.Outputs[Salida de error de comando de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de comando de OLE DB"
+                  synchronousInputId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB.Outputs[Salida de error de comando de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Comando de OLE DB.Outputs[Salida de error de comando de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB.Outputs[Salida de error de comando de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Comando de OLE DB.Outputs[Salida de error de comando de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Comando de OLE DB 1"
+              componentClassID="Microsoft.OLEDBCommand"
+              contactInfo="Comando de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Ejecuta una instrucción SQL para cada fila de un flujo de datos. Por ejemplo, se usa para llamar al procedimiento almacenado de configuración de nuevo empleado para cada fila de la tabla de nuevos empleados. Nota: la ejecución de una instrucción SQL para cada fila de un flujo de datos de gran tamaño puede tardar mucho tiempo."
+              name="Comando de OLE DB 1"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[DW_DimProducts] SET [ProductCategoryID] = ?,[ProductCategoryName] = ?,[ProductColor] = ?,[ProductListPrice] = ?,[ProductName] = ?,[ProductNumber] = ?,[ProductSize] = ?,[ProductStandardCost] = ?,[ProductWeight] = ? WHERE [ProductID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Connections[OleDbConnection]"
+                  connectionManagerID="{B2EFF2A0-430B-45CB-B995-EC9A83587940}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[(LOCAL).DW_AdventureWorksLT2012]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB]"
+                  errorOrTruncationOperation="Ejecución de comando"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de comando de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductCategoryID]"
+                      cachedDataType="i4"
+                      cachedName="ProductCategoryID"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_0]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryID]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductCategoryName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductCategoryName"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_1]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryName]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductColor]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductColor"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_2]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductColor]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_9]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductListPrice]"
+                      cachedDataType="cy"
+                      cachedName="ProductListPrice"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_3]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductListPrice]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductName"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_4]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductName]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductNumber"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_5]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductNumber]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductSize]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="ProductSize"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_6]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductSize]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductStandardCost]"
+                      cachedDataType="cy"
+                      cachedName="ProductStandardCost"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_7]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductStandardCost]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].Columns[ProductWeight]"
+                      cachedDataType="numeric"
+                      cachedName="ProductWeight"
+                      cachedPrecision="8"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_8]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductWeight]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_0]"
+                      dataType="i4"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_1]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_2]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_2">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_3]"
+                      dataType="cy"
+                      name="Param_3">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_4]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_5]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_5">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_6]"
+                      dataType="wstr"
+                      length="5"
+                      name="Param_6">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_7]"
+                      dataType="cy"
+                      name="Param_7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_8]"
+                      dataType="numeric"
+                      name="Param_8"
+                      precision="8"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_9]"
+                      dataType="i4"
+                      name="Param_9">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Outputs[Salida de comando de OLE DB]"
+                  exclusionGroup="1"
+                  name="Salida de comando de OLE DB"
+                  synchronousInputId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Outputs[Salida de error de comando de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de comando de OLE DB"
+                  synchronousInputId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Outputs[Salida de error de comando de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Outputs[Salida de error de comando de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Outputs[Salida de error de comando de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Outputs[Salida de error de comando de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Comando de OLE DB 2"
+              componentClassID="Microsoft.OLEDBCommand"
+              contactInfo="Comando de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Ejecuta una instrucción SQL para cada fila de un flujo de datos. Por ejemplo, se usa para llamar al procedimiento almacenado de configuración de nuevo empleado para cada fila de la tabla de nuevos empleados. Nota: la ejecución de una instrucción SQL para cada fila de un flujo de datos de gran tamaño puede tardar mucho tiempo."
+              name="Comando de OLE DB 2"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[DW_DimProducts] SET [ProductName] = ? WHERE [ProductID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Connections[OleDbConnection]"
+                  connectionManagerID="{B2EFF2A0-430B-45CB-B995-EC9A83587940}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[(LOCAL).DW_AdventureWorksLT2012]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB]"
+                  errorOrTruncationOperation="Ejecución de comando"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de comando de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_1]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductName"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_0]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductName]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_0]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB].ExternalColumns[Param_1]"
+                      dataType="i4"
+                      name="Param_1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Información de parámetros. Coincide con los valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Outputs[Salida de comando de OLE DB]"
+                  exclusionGroup="1"
+                  name="Salida de comando de OLE DB"
+                  synchronousInputId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Outputs[Salida de error de comando de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de comando de OLE DB"
+                  synchronousInputId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Outputs[Salida de error de comando de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Outputs[Salida de error de comando de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Outputs[Salida de error de comando de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Outputs[Salida de error de comando de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Insertar destino"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="Insertar destino"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[DW_DimProducts]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Insertar destino.Connections[OleDbConnection]"
+                  connectionManagerID="{B2EFF2A0-430B-45CB-B995-EC9A83587940}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[(LOCAL).DW_AdventureWorksLT2012]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductID]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductName"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductName]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductName]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductNumber"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductNumber]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductNumber]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductColor]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductColor"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductColor]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductColor]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductStandardCost]"
+                      cachedDataType="cy"
+                      cachedName="ProductStandardCost"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductStandardCost]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductStandardCost]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductListPrice]"
+                      cachedDataType="cy"
+                      cachedName="ProductListPrice"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductListPrice]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductListPrice]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductSize]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="ProductSize"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductSize]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductSize]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductWeight]"
+                      cachedDataType="numeric"
+                      cachedName="ProductWeight"
+                      cachedPrecision="8"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductWeight]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductWeight]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductCategoryID]"
+                      cachedDataType="i4"
+                      cachedName="ProductCategoryID"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductCategoryID]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryID]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[ProductCategoryName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductCategoryName"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductCategoryName]"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryName]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].Columns[StarDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="StarDate"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[StarDate]"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada].Columns[StarDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductKey]"
+                      dataType="i4"
+                      name="ProductKey" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductName]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductName" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductColor]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductColor" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductStandardCost]"
+                      dataType="cy"
+                      name="ProductStandardCost" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductListPrice]"
+                      dataType="cy"
+                      name="ProductListPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductSize]"
+                      dataType="wstr"
+                      length="5"
+                      name="ProductSize" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductWeight]"
+                      dataType="numeric"
+                      name="ProductWeight"
+                      precision="8"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductCategoryID]"
+                      dataType="i4"
+                      name="ProductCategoryID" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[ProductCategoryName]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductCategoryName" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[StarDate]"
+                      dataType="dbTimeStamp"
+                      name="StarDate" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB].ExternalColumns[EndDate]"
+                      dataType="dbTimeStamp"
+                      name="EndDate" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Insertar destino.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Insertar destino.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Insertar destino.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Insertar destino.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS"
+              componentClassID="Microsoft.SCD"
+              contactInfo="Dimensión de variación lenta;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;3"
+              description="Actualiza una dimensión del almacenamiento de datos de SQL Server Analysis Services. Actualiza los registros de dimensión existentes e inserta los registros de dimensión que faltan. Por ejemplo, se actualiza la tabla DimProduct de la base de datos OLAP AdventureWorksDW con datos procedentes de la tabla Products de la base de datos OLTP AdventureWorks."
+              name="SCD DW_PRODUCTS"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Especifica la instrucción SELECT utilizada para crear un conjunto de filas de esquema."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [ProductCategoryID], [ProductCategoryName], [ProductColor], [ProductID], [ProductListPrice], [ProductName], [ProductNumber], [ProductSize], [ProductStandardCost], [ProductWeight],[StarDate],[EndDate] FROM [dbo].[DW_DimProducts]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la cláusula WHERE de la instrucción SELECT que selecciona la fila actual de entre filas con claves empresariales idénticas."
+                  name="CurrentRowWhere">[StarDate] IS NOT NULL AND [EndDate] IS NULL</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las actualizaciones de atributos históricos se dirigen a la salida de transformación para actualizaciones de atributos variables."
+                  name="UpdateChangingAttributeHistory">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si se produce un error de transformación cuando las columnas con atributos fijos contienen cambios."
+                  name="FailOnFixedAttributeChange">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre de columna para el miembro deducido."
+                  name="InferredMemberIndicator"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si se detectan las actualizaciones de miembros deducidos."
+                  name="EnableInferredMember">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si se produce un error de transformación cuando se produce un error de búsqueda de un registro existente."
+                  name="FailOnLookupFailure">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica que todas las filas de la entrada sean nuevas o que la transformación detecte el tipo de cambio."
+                  name="IncomingRowChangeType"
+                  typeConverter="IncomingRowChangeType">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Connections[LookupConnection]"
+                  connectionManagerID="{B2EFF2A0-430B-45CB-B995-EC9A83587940}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[(LOCAL).DW_AdventureWorksLT2012]"
+                  description="Define la conexión que se debe usar para búsquedas en la tabla de dimensiones"
+                  name="LookupConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta]"
+                  name="Entrada de dimensión de variación lenta">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductID]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductName"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductName]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductName]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductListPrice]"
+                      cachedDataType="cy"
+                      cachedName="ProductListPrice"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductListPrice]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductListPrice]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">3</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductCategoryID]"
+                      cachedDataType="i4"
+                      cachedName="ProductCategoryID"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductCategoryID]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">4</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductCategoryName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductCategoryName"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductCategoryName]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryName]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">4</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductColor]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductColor"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductColor]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductColor]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">4</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductNumber"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductNumber]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductNumber]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">4</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductSize]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="ProductSize"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductSize]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductSize]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">4</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductStandardCost]"
+                      cachedDataType="cy"
+                      cachedName="ProductStandardCost"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductStandardCost]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductStandardCost]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">4</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].Columns[ProductWeight]"
+                      cachedDataType="numeric"
+                      cachedName="ProductWeight"
+                      cachedPrecision="8"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductWeight]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductWeight]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">4</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductCategoryID]"
+                      dataType="i4"
+                      name="ProductCategoryID" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductCategoryName]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductCategoryName" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductColor]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductColor" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductListPrice]"
+                      dataType="cy"
+                      name="ProductListPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductName]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductName" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductSize]"
+                      dataType="wstr"
+                      length="5"
+                      name="ProductSize" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductStandardCost]"
+                      dataType="cy"
+                      name="ProductStandardCost" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[ProductWeight]"
+                      dataType="numeric"
+                      name="ProductWeight"
+                      precision="8"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[StarDate]"
+                      dataType="dbTimeStamp"
+                      name="StarDate" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta].ExternalColumns[EndDate]"
+                      dataType="dbTimeStamp"
+                      name="EndDate" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Salida sin cambios]"
+                  description="Filas sin cambios"
+                  exclusionGroup="1"
+                  name="Salida sin cambios"
+                  synchronousInputId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Nueva salida]"
+                  description="Nuevas filas"
+                  exclusionGroup="1"
+                  name="Nueva salida"
+                  synchronousInputId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Salida de atributo fijo]"
+                  description="Filas con cambios en columnas etiquetadas FixedAttribute"
+                  exclusionGroup="1"
+                  name="Salida de atributo fijo"
+                  synchronousInputId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Salida de actualizaciones de atributos variables]"
+                  description="Estas filas contienen información nueva para cambios de columnas ChangingAttribute (tipo 1)"
+                  exclusionGroup="1"
+                  name="Salida de actualizaciones de atributos variables"
+                  synchronousInputId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Salida de inserciones de atributos históricos]"
+                  description="Los cambios de HistoricalAttribute (tipo 2) crean estas nuevas filas"
+                  exclusionGroup="2"
+                  name="Salida de inserciones de atributos históricos"
+                  synchronousInputId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Salida de actualizaciones de miembros deducidos]"
+                  description="Información para actualizar fila de dimensión inicial sin rellenar"
+                  exclusionGroup="1"
+                  name="Salida de actualizaciones de miembros deducidos"
+                  synchronousInputId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="TBL STD_PRODUCTS"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[StaProducts]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Connections[OleDbConnection]"
+                  connectionManagerID="{0C4AB30C-54AE-46CB-8AFB-A3CEDBBC6D1D}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[(LOCAL).STA_AdventureWorksLT2012]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductKey]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductKey]"
+                      name="ProductKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductID]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductName]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductName]"
+                      name="ProductName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductNumber]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductNumber]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductNumber]"
+                      name="ProductNumber"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductColor]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductColor]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductColor]"
+                      name="ProductColor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductStandardCost]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductStandardCost]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductStandardCost]"
+                      name="ProductStandardCost"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductListPrice]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductListPrice]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductListPrice]"
+                      name="ProductListPrice"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductSize]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductSize]"
+                      length="5"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductSize]"
+                      name="ProductSize"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductWeight]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductWeight]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductWeight]"
+                      name="ProductWeight"
+                      precision="8"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductCategoryID]"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryID]"
+                      name="ProductCategoryID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductCategoryName]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryName]"
+                      name="ProductCategoryName"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductKey]"
+                      dataType="i4"
+                      name="ProductKey" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductName]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductName" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductColor]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductColor" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductStandardCost]"
+                      dataType="cy"
+                      name="ProductStandardCost" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductListPrice]"
+                      dataType="cy"
+                      name="ProductListPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductSize]"
+                      dataType="wstr"
+                      length="5"
+                      name="ProductSize" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductWeight]"
+                      dataType="numeric"
+                      name="ProductWeight"
+                      precision="8"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductCategoryID]"
+                      dataType="i4"
+                      name="ProductCategoryID" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductCategoryName]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductCategoryName" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductKey]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductKey]"
+                      name="ProductKey" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductName]"
+                      name="ProductName" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductNumber]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductNumber]"
+                      name="ProductNumber" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductColor]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductColor]"
+                      name="ProductColor" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductStandardCost]"
+                      dataType="cy"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductStandardCost]"
+                      name="ProductStandardCost" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductListPrice]"
+                      dataType="cy"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductListPrice]"
+                      name="ProductListPrice" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductSize]"
+                      dataType="wstr"
+                      length="5"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductSize]"
+                      name="ProductSize" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductWeight]"
+                      dataType="numeric"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductWeight]"
+                      name="ProductWeight"
+                      precision="8"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductCategoryID]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductCategoryID]"
+                      name="ProductCategoryID" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductCategoryName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ProductCategoryName]"
+                      name="ProductCategoryName" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Unión de todo"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Unión de todo;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Combina las filas de varios flujos de datos sin ordenarlos. Por ejemplo, devuelve filas a un flujo de datos después de corregir los errores. Si el orden es importante, se recomienda usar la transformación Mezclar."
+              name="Unión de todo"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1]"
+                  name="Entrada de Unión de todo 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductKey]"
+                      cachedDataType="i4"
+                      cachedName="ProductKey"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductName"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductName]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductNumber"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductNumber]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductNumber]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductColor]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductColor"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductColor]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductColor]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductStandardCost]"
+                      cachedDataType="cy"
+                      cachedName="ProductStandardCost"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductStandardCost]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductStandardCost]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductListPrice]"
+                      cachedDataType="cy"
+                      cachedName="ProductListPrice"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductListPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductListPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductSize]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="ProductSize"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductSize]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductSize]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductWeight]"
+                      cachedDataType="numeric"
+                      cachedName="ProductWeight"
+                      cachedPrecision="8"
+                      cachedScale="2"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductWeight]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductWeight]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductCategoryID]"
+                      cachedDataType="i4"
+                      cachedName="ProductCategoryID"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[ProductCategoryName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductCategoryName"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryName]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2]"
+                  hasSideEffects="true"
+                  name="Entrada de Unión de todo 2">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductKey]"
+                      cachedDataType="i4"
+                      cachedName="ProductKey"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductName"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductName]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductNumber"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductNumber]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductNumber]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductColor]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductColor"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductColor]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductColor]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductStandardCost]"
+                      cachedDataType="cy"
+                      cachedName="ProductStandardCost"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductStandardCost]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductStandardCost]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductListPrice]"
+                      cachedDataType="cy"
+                      cachedName="ProductListPrice"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductListPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductListPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductSize]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="ProductSize"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductSize]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductSize]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductWeight]"
+                      cachedDataType="numeric"
+                      cachedName="ProductWeight"
+                      cachedPrecision="8"
+                      cachedScale="2"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductWeight]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductWeight]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductCategoryID]"
+                      cachedDataType="i4"
+                      cachedName="ProductCategoryID"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[ProductCategoryName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductCategoryName"
+                      lineageId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB].Columns[ProductCategoryName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryName]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Entrada de Unión de todo 3">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1]"
+                  name="Salida de Unión de todo 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductKey]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductKey]"
+                      name="ProductKey" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductName]"
+                      name="ProductName" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductNumber]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductNumber]"
+                      name="ProductNumber" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductColor]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductColor]"
+                      name="ProductColor" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductStandardCost]"
+                      dataType="cy"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductStandardCost]"
+                      name="ProductStandardCost" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductListPrice]"
+                      dataType="cy"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductListPrice]"
+                      name="ProductListPrice" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductSize]"
+                      dataType="wstr"
+                      length="5"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductSize]"
+                      name="ProductSize" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductWeight]"
+                      dataType="numeric"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductWeight]"
+                      name="ProductWeight"
+                      precision="8"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryID]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryID]"
+                      name="ProductCategoryID" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[ProductCategoryName]"
+                      name="ProductCategoryName" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Nueva salida]"
+              endId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1]"
+              name="Nueva salida"
+              startId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Nueva salida]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de actualizaciones de atributos variables]"
+              endId="Package\Tarea Flujo de datos\Comando de OLE DB 2.Inputs[Entrada de comando de OLE DB]"
+              name="Salida de actualizaciones de atributos variables"
+              startId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Salida de actualizaciones de atributos variables]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de actualizaciones de miembros deducidos]"
+              endId="Package\Tarea Flujo de datos\Comando de OLE DB 1.Inputs[Entrada de comando de OLE DB]"
+              name="Salida de actualizaciones de miembros deducidos"
+              startId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Salida de actualizaciones de miembros deducidos]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de columna derivada]"
+              endId="Package\Tarea Flujo de datos\Comando de OLE DB.Inputs[Entrada de comando de OLE DB]"
+              name="Salida de columna derivada"
+              startId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de columna derivada1]"
+              endId="Package\Tarea Flujo de datos\Insertar destino.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de columna derivada"
+              startId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de comando de OLE DB]"
+              endId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2]"
+              name="Salida de comando de OLE DB"
+              startId="Package\Tarea Flujo de datos\Comando de OLE DB.Outputs[Salida de comando de OLE DB]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de inserciones de atributos históricos]"
+              endId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]"
+              name="Salida de inserciones de atributos históricos"
+              startId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Outputs[Salida de inserciones de atributos históricos]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB]"
+              endId="Package\Tarea Flujo de datos\SCD DW_PRODUCTS.Inputs[Entrada de dimensión de variación lenta]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Tarea Flujo de datos\TBL STD_PRODUCTS.Outputs[Salida de origen de OLE DB]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de Unión de todo 1]"
+              endId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada]"
+              name="Salida de Unión de todo 1"
+              startId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="173.6,41.6"
+          Id="Package\Tarea Flujo de datos"
+          TopLeft="5.5,5.5" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Tarea Flujo de datos">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="184.8,41.6"
+          Id="Package\Tarea Flujo de datos\TBL STD_PRODUCTS"
+          TopLeft="419.29999602139,10.4999999254941" />
+        <NodeLayout
+          Size="184.8,41.6"
+          Id="Package\Tarea Flujo de datos\SCD DW_PRODUCTS"
+          TopLeft="412.299996125698,109.099999970198" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB]"
+          TopLeft="508.199996073544,52.0999999254941">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,57.0000000447034"
+              Start="0,0"
+              End="0,49.5000000447034">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,49.5000000447034" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Tarea Flujo de datos\Columna derivada"
+          TopLeft="9.50000017881398,206.700000029802" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de inserciones de atributos históricos]"
+          TopLeft="451.659996125698,150.699999970198">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-360.959995946884,56.0000000596046"
+              Start="0,0"
+              End="-360.959995946884,48.5000000596046">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.7285974677143" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.7285974677143"
+                    Point2="0,16.7285974677143"
+                    Point3="-4,16.7285974677143" />
+                  <mssgle:LineSegment
+                    End="-356.959995946884,16.7285974677143" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-356.959995946884,16.7285974677143"
+                    Point2="-360.959995946884,16.7285974677143"
+                    Point3="-360.959995946884,20.7285974677143" />
+                  <mssgle:LineSegment
+                    End="-360.959995946884,48.5000000596046" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-277.468240160942,21.7285974677143,193.976484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="178.4,41.6"
+          Id="Package\Tarea Flujo de datos\Comando de OLE DB"
+          TopLeft="5.50000000000004,310.3" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de columna derivada]"
+          TopLeft="92.700000089407,248.300000029802">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,61.9999999701976"
+              Start="0,0"
+              End="0,54.4999999701976">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.4999999701976" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\Tarea Flujo de datos\Unión de todo"
+          TopLeft="173.1,411.9" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Nueva salida]"
+          TopLeft="487.019996125698,150.699999970198">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-219.786662792365,261.200000029802"
+              Start="0,0"
+              End="-219.786662792365,253.700000029802">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,137.384882780826" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,137.384882780826"
+                    Point2="0,141.384882780826"
+                    Point3="-4,141.384882780826" />
+                  <mssgle:LineSegment
+                    End="-215.786662792365,141.384882780826" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-215.786662792365,141.384882780826"
+                    Point2="-219.786662792365,141.384882780826"
+                    Point3="-219.786662792365,145.384882780826" />
+                  <mssgle:LineSegment
+                    End="-219.786662792365,253.700000029802" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-138.181690771182,146.384882780826,56.57671875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de comando de OLE DB]"
+          TopLeft="94.7,351.9">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="127.466666666667,59.9999999999998"
+              Start="0,0"
+              End="127.466666666667,52.4999999999998">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.6022099447512" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.6022099447512"
+                    Point2="0,35.6022099447512"
+                    Point3="4,35.6022099447512" />
+                  <mssgle:LineSegment
+                    End="123.466666666667,35.6022099447512" />
+                  <mssgle:CubicBezierSegment
+                    Point1="123.466666666667,35.6022099447512"
+                    Point2="127.466666666667,35.6022099447512"
+                    Point3="127.466666666667,39.6022099447512" />
+                  <mssgle:LineSegment
+                    End="127.466666666667,52.4999999999998" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Tarea Flujo de datos\Columna derivada 1"
+          TopLeft="159.1,513.5" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de Unión de todo 1]"
+          TopLeft="244.7,453.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.9999999999999"
+              Start="0,0"
+              End="0,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\Tarea Flujo de datos\Insertar destino"
+          TopLeft="169.5,615.099999999999" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de columna derivada1]"
+          TopLeft="244.7,555.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.9999999999999"
+              Start="0,0"
+              End="0,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="187.2,41.6"
+          Id="Package\Tarea Flujo de datos\Comando de OLE DB 1"
+          TopLeft="586.099995827675,441.699996528029" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de actualizaciones de miembros deducidos]"
+          TopLeft="522.379996125698,150.699999970198">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="157.319999701977,290.999996557832"
+              Start="0,0"
+              End="157.319999701977,283.499996557832">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,126.107226799911" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,126.107226799911"
+                    Point2="0,130.107226799911"
+                    Point3="4,130.107226799911" />
+                  <mssgle:LineSegment
+                    End="153.319999701977,130.107226799911" />
+                  <mssgle:CubicBezierSegment
+                    Point1="153.319999701977,130.107226799911"
+                    Point2="157.319999701977,130.107226799911"
+                    Point3="157.319999701977,134.107226799911" />
+                  <mssgle:LineSegment
+                    End="157.319999701977,283.499996557832" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-30.5232423365117,135.107226799911,218.366484375,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="187.2,41.6"
+          Id="Package\Tarea Flujo de datos\Comando de OLE DB 2"
+          TopLeft="718.09999755621,228.699999701977" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de actualizaciones de atributos variables]"
+          TopLeft="557.739996125698,150.699999970198">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="253.960001430512,77.999999731779"
+              Start="0,0"
+              End="253.960001430512,70.499999731779">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.3005463679631" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.3005463679631"
+                    Point2="0,23.3005463679631"
+                    Point3="4,23.3005463679631" />
+                  <mssgle:LineSegment
+                    End="249.960001430512,23.3005463679631" />
+                  <mssgle:CubicBezierSegment
+                    Point1="249.960001430512,23.3005463679631"
+                    Point2="253.960001430512,23.3005463679631"
+                    Point3="253.960001430512,27.3005463679631" />
+                  <mssgle:LineSegment
+                    End="253.960001430512,70.499999731779" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="22.7267585277558,28.3005463679631,208.506484375,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\TBL STD_PRODUCTS">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\SCD DW_PRODUCTS">
+    <Properties>
+      <Property>
+        <Name>SCDMetadata</Name>
+        <Value
+          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SCDWizardMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionID&gt;{B2EFF2A0-430B-45CB-B995-EC9A83587940}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[dbo].[DW_DimProducts]&lt;/TableName&gt;
+  &lt;InputToColumnsCollection&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductCategoryID]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductCategoryID&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductCategoryName]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductCategoryName&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductColor]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductColor&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductID]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductID&lt;/ColumnName&gt;
+      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductListPrice]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductListPrice&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;HistoricalAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductName]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductName&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductNumber]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductNumber&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductSize]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductSize&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductStandardCost]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductStandardCost&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;TBL STD_PRODUCTS.Salidas[Salida de origen de OLE DB].Columnas[ProductWeight]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductWeight&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+  &lt;/InputToColumnsCollection&gt;
+  &lt;GeneratedComponentsIdentificationStrings&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Columna derivada&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Comando de OLE DB&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Unión de todo&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Columna derivada 1&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Insertar destino&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Comando de OLE DB 1&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Comando de OLE DB 2&lt;/anyType&gt;
+  &lt;/GeneratedComponentsIdentificationStrings&gt;
+  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
+  &lt;FailChangeAttribute&gt;true&lt;/FailChangeAttribute&gt;
+  &lt;UseStartEndDate&gt;true&lt;/UseStartEndDate&gt;
+  &lt;CurrentIndicatorColumn /&gt;
+  &lt;InferredIndicatorColumn /&gt;
+  &lt;ValueCurrent /&gt;
+  &lt;ValueExpired /&gt;
+  &lt;StartDateColumn&gt;StarDate&lt;/StartDateColumn&gt;
+  &lt;EndDateColumn&gt;EndDate&lt;/EndDateColumn&gt;
+  &lt;DateVariable&gt;System::StartTime&lt;/DateVariable&gt;
+  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
+&lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
