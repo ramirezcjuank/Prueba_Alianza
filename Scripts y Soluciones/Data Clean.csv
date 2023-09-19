@@ -1,0 +1,848 @@
+﻿CustomerKey_Output,CustomerID_Source,CustomerID_Output,CustomerID_Reason,CustomerID_Confidence,CustomerID_Status,Fullname_Source,Fullname_Output,Fullname_Reason,Fullname_Confidence,Fullname_Status,CompanyName_Source,CompanyName_Output,CompanyName_Reason,CompanyName_Confidence,CompanyName_Status,Record_Status
+2,1,"1,00",New value,,New,Juan Ramirez,Juan Ramirez,New value,,New,Alianza,Alianza,New value,,New,New
+3,2,"2,00",New value,,New,Keith Harris,Keith Harris,New value,,New,Progressive Sports,Progressive Sports,New value,,New,New
+4,3,"3,00",New value,,New,Donna Carreras,Donna Carreras,New value,,New,Advanced Bike Components,Advanced Bike Components,New value,,New,New
+5,4,"4,00",New value,,New,Janet Gates,Janet Gates,New value,,New,Modular Cycle Systems,Modular Cycle Systems,New value,,New,New
+6,5,"5,00",New value,,New,Lucy Harrington,Lucy Harrington,New value,,New,Metropolitan Sports Supply,Metropolitan Sports Supply,New value,,New,New
+7,6,"6,00",New value,,New,Rosmarie Carroll,Rosmarie Carroll,New value,,New,Aerobic Exercise Company,Aerobic Exercise Company,New value,,New,New
+8,7,"7,00",New value,,New,Dominic Gash,Dominic Gash,New value,,New,Associated Bikes,Associated Bikes,New value,,New,New
+9,10,"10,00",New value,,New,Kathleen Garza,Kathleen Garza,New value,,New,Rural Cycle Emporium,Rural Cycle Emporium,New value,,New,New
+10,11,"11,00",New value,,New,Katherine Harding,Katherine Harding,New value,,New,Sharp Bikes,Sharp Bikes,New value,,New,New
+11,12,"12,00",New value,,New,Johnny Caprio,Johnny Caprio,New value,,New,Bikes and Motorbikes,Bikes and Motorbikes,New value,,New,New
+12,16,"16,00",New value,,New,Christopher Beck,Christopher Beck,New value,,New,Bulk Discount Store,Bulk Discount Store,New value,,New,New
+13,18,"18,00",New value,,New,David Liu,David Liu,New value,,New,Catalog Store,Catalog Store,New value,,New,New
+14,19,"19,00",New value,,New,John Beaver,John Beaver,New value,,New,Center Cycle Shop,Center Cycle Shop,New value,,New,New
+15,20,"20,00",New value,,New,Jean Handley,Jean Handley,New value,,New,Central Discount Store,Central Discount Store,New value,,New,New
+16,21,"21,00",New value,,New,Jinghao Liu,Jinghao Liu,New value,,New,Chic Department Stores,Chic Department Stores,New value,,New,New
+17,22,"22,00",New value,,New,Linda Burnett,Linda Burnett,New value,,New,Travel Systems,Travel Systems,New value,,New,New
+18,23,"23,00",New value,,New,Kerim Hanif,Kerim Hanif,New value,,New,Bike World,Bike World,New value,,New,New
+19,24,"24,00",New value,,New,Kevin Liu,Kevin Liu,New value,,New,Eastside Department Store,Eastside Department Store,New value,,New,New
+20,25,"25,00",New value,,New,Donald Blanton,Donald Blanton,New value,,New,Coalition Bike Company,Coalition Bike Company,New value,,New,New
+21,28,"28,00",New value,,New,Jackie Blackwell,Jackie Blackwell,New value,,New,Commuter Bicycle Store,Commuter Bicycle Store,New value,,New,New
+22,29,"29,00",New value,,New,Bryan Hamilton,Bryan Hamilton,New value,,New,Cross-Country Riding Supplies,Cross-Country Riding Supplies,New value,,New,New
+23,30,"30,00",New value,,New,Todd Logan,Todd Logan,New value,,New,Cycle Merchants,Cycle Merchants,New value,,New,New
+24,34,"34,00",New value,,New,Barbara German,Barbara German,New value,,New,Cycles Wholesaler & Mfg.,Cycles Wholesaler & Mfg.,New value,,New,New
+25,37,"37,00",New value,,New,Jim Geist,Jim Geist,New value,,New,Two Bike Shops,Two Bike Shops,New value,,New,New
+26,38,"38,00",New value,,New,Betty Haines,Betty Haines,New value,,New,Finer Mart,Finer Mart,New value,,New,New
+27,39,"39,00",New value,,New,Sharon Looney,Sharon Looney,New value,,New,Fitness Hotel,Fitness Hotel,New value,,New,New
+28,40,"40,00",New value,,New,Darren Gehring,Darren Gehring,New value,,New,Journey Sporting Goods,Journey Sporting Goods,New value,,New,New
+29,41,"41,00",New value,,New,Erin Hagens,Erin Hagens,New value,,New,Distant Inn,Distant Inn,New value,,New,New
+30,42,"42,00",New value,,New,Jeremy Los,Jeremy Los,New value,,New,Healthy Activity Store,Healthy Activity Store,New value,,New,New
+31,43,"43,00",New value,,New,Elsa Leavitt,Elsa Leavitt,New value,,New,Frugal Bike Shop,Frugal Bike Shop,New value,,New,New
+32,46,"46,00",New value,,New,David Lawrence,David Lawrence,New value,,New,Gear-Shift Bikes Limited,Gear-Shift Bikes Limited,New value,,New,New
+33,47,"47,00",New value,,New,Hattie Haemon,Hattie Haemon,New value,,New,Greater Bike Store,Greater Bike Store,New value,,New,New
+34,48,"48,00",New value,,New,Anita Lucerne,Anita Lucerne,New value,,New,Grand Industries,Grand Industries,New value,,New,New
+35,52,"52,00",New value,,New,Rebecca Laszlo,Rebecca Laszlo,New value,,New,Instruments and Parts Company,Instruments and Parts Company,New value,,New,New
+36,55,"55,00",New value,,New,Eric Lang,Eric Lang,New value,,New,Kickstands and Accessories Company,Kickstands and Accessories Company,New value,,New,New
+37,56,"56,00",New value,,New,Brian Groth,Brian Groth,New value,,New,Latest Accessories Sales,Latest Accessories Sales,New value,,New,New
+38,57,"57,00",New value,,New,Judy Lundahl,Judy Lundahl,New value,,New,Leading Sales & Repair,Leading Sales & Repair,New value,,New,New
+39,58,"58,00",New value,,New,Peter Kurniawan,Peter Kurniawan,New value,,New,Largest Bike Store,Largest Bike Store,New value,,New,New
+40,59,"59,00",New value,,New,Douglas Groncki,Douglas Groncki,New value,,New,Locks Company,Locks Company,New value,,New,New
+41,60,"60,00",New value,,New,Sean Lunt,Sean Lunt,New value,,New,Main Bicycle Services,Main Bicycle Services,New value,,New,New
+42,61,"61,00",New value,,New,Jeffrey Kurtz,Jeffrey Kurtz,New value,,New,Many Bikes Store,Many Bikes Store,New value,,New,New
+43,64,"64,00",New value,,New,Vamsi Kuppa,Vamsi Kuppa,New value,,New,Metal Clearing House,Metal Clearing House,New value,,New,New
+44,65,"65,00",New value,,New,Jane Greer,Jane Greer,New value,,New,Metro Manufacturing,Metro Manufacturing,New value,,New,New
+45,66,"66,00",New value,,New,Alexander Deborde,Alexander Deborde,New value,,New,Neighborhood Store,Neighborhood Store,New value,,New,New
+46,70,"70,00",New value,,New,Deepak Kumar,Deepak Kumar,New value,,New,Outdoor Aerobic Systems Company,Outdoor Aerobic Systems Company,New value,,New,New
+47,73,"73,00",New value,,New,Margaret Krupka,Margaret Krupka,New value,,New,Outdoor Sports Supply,Outdoor Sports Supply,New value,,New,New
+48,74,"74,00",New value,,New,Christopher Bright,Christopher Bright,New value,,New,Parcel Express Delivery Service,Parcel Express Delivery Service,New value,,New,New
+49,75,"75,00",New value,,New,Aidan Delaney,Aidan Delaney,New value,,New,Paint Supply,Paint Supply,New value,,New,New
+50,76,"76,00",New value,,New,James Krow,James Krow,New value,,New,Out-of-the-Way Hotels,Out-of-the-Way Hotels,New value,,New,New
+51,77,"77,00",New value,,New,Michael Brundage,Michael Brundage,New value,,New,Mechanical Products Ltd.,Mechanical Products Ltd.,New value,,New,New
+52,78,"78,00",New value,,New,Stefan Delmarco,Stefan Delmarco,New value,,New,Preferred Bikes,Preferred Bikes,New value,,New,New
+53,79,"79,00",New value,,New,Mitch Kennedy,Mitch Kennedy,New value,,New,Reasonable Bicycle Sales,Reasonable Bicycle Sales,New value,,New,New
+54,82,"82,00",New value,,New,James Kramer,James Kramer,New value,,New,Refined Department Stores,Refined Department Stores,New value,,New,New
+55,83,"83,00",New value,,New,Eric Brumfield,Eric Brumfield,New value,,New,Requisite Part Supply,Requisite Part Supply,New value,,New,New
+56,84,"84,00",New value,,New,Della Demott Jr,Della Demott Jr,New value,,New,Rewarding Activities Company,Rewarding Activities Company,New value,,New,New
+57,88,"88,00",New value,,New,Pamala Kotc,Pamala Kotc,New value,,New,Closest Bicycle Store,Closest Bicycle Store,New value,,New,New
+58,91,"91,00",New value,,New,Joy Koski,Joy Koski,New value,,New,Scooters and Bikes Store,Scooters and Bikes Store,New value,,New,New
+59,92,"92,00",New value,,New,Jovita Carmody,Jovita Carmody,New value,,New,Sports Commodities,Sports Commodities,New value,,New,New
+60,93,"93,00",New value,,New,Prashanth Desai,Prashanth Desai,New value,,New,Stationary Bikes and Stands,Stationary Bikes and Stands,New value,,New,New
+61,94,"94,00",New value,,New,Scott Konersmann,Scott Konersmann,New value,,New,Specialty Sports Store,Specialty Sports Store,New value,,New,New
+62,95,"95,00",New value,,New,Jane Carmichael,Jane Carmichael,New value,,New,Rural Department Store,Rural Department Store,New value,,New,New
+63,96,"96,00",New value,,New,Bonnie Lepro,Bonnie Lepro,New value,,New,More Bikes!,More Bikes!,New value,,New,New
+64,97,"97,00",New value,,New,Eugene Kogan,Eugene Kogan,New value,,New,Mountain Bike Center,Mountain Bike Center,New value,,New,New
+65,100,"100,00",New value,,New,Kirk King,Kirk King,New value,,New,Up-To-Date Sports,Up-To-Date Sports,New value,,New,New
+66,101,"101,00",New value,,New,William Conner,William Conner,New value,,New,Urban Sports Emporium,Urban Sports Emporium,New value,,New,New
+67,102,"102,00",New value,,New,Linda Leste,Linda Leste,New value,,New,National Manufacturing,National Manufacturing,New value,,New,New
+68,106,"106,00",New value,,New,Andrea Thomsen,Andrea Thomsen,New value,,New,West Side Mart,West Side Mart,New value,,New,New
+69,109,"109,00",New value,,New,Daniel Thompson,Daniel Thompson,New value,,New,Travel Sports,Travel Sports,New value,,New,New
+70,110,"110,00",New value,,New,Kendra Thompson,Kendra Thompson,New value,,New,Vintage Sport Boutique,Vintage Sport Boutique,New value,,New,New
+71,111,"111,00",New value,,New,Scott Colvin,Scott Colvin,New value,,New,Westside Cycle Store,Westside Cycle Store,New value,,New,New
+72,112,"112,00",New value,,New,Elsie Lewin,Elsie Lewin,New value,,New,Town Industries,Town Industries,New value,,New,New
+73,113,"113,00",New value,,New,Donald Thompson,Donald Thompson,New value,,New,Trendy Department Stores,Trendy Department Stores,New value,,New,New
+74,114,"114,00",New value,,New,John Colon,John Colon,New value,,New,Two Wheels Cycle Store,Two Wheels Cycle Store,New value,,New,New
+75,115,"115,00",New value,,New,George Li,George Li,New value,,New,Security Racks and Locks Wholesalers,Security Racks and Locks Wholesalers,New value,,New,New
+76,118,"118,00",New value,,New,Yale Li,Yale Li,New value,,New,Rapid Bikes,Rapid Bikes,New value,,New,New
+77,119,"119,00",New value,,New,Phyllis Thomas,Phyllis Thomas,New value,,New,Red Bicycle Company,Red Bicycle Company,New value,,New,New
+78,120,"120,00",New value,,New,Pat Coleman,Pat Coleman,New value,,New,Machines & Cycles Store,Machines & Cycles Store,New value,,New,New
+79,124,"124,00",New value,,New,Yuhong Li,Yuhong Li,New value,,New,Nearby Sporting Goods,Nearby Sporting Goods,New value,,New,New
+80,127,"127,00",New value,,New,Joseph Lique,Joseph Lique,New value,,New,Front Sporting Goods,Front Sporting Goods,New value,,New,New
+81,128,"128,00",New value,,New,Judy Thames,Judy Thames,New value,,New,Demand Distributors,Demand Distributors,New value,,New,New
+82,129,"129,00",New value,,New,Connie Coffman,Connie Coffman,New value,,New,Discount Bicycle Specialists,Discount Bicycle Specialists,New value,,New,New
+83,130,"130,00",New value,,New,Paulo Lisboa,Paulo Lisboa,New value,,New,Elite Bikes,Elite Bikes,New value,,New,New
+84,131,"131,00",New value,,New,Vanessa Tench,Vanessa Tench,New value,,New,Eighth Bike Store,Eighth Bike Store,New value,,New,New
+85,132,"132,00",New value,,New,Teanna Cobb,Teanna Cobb,New value,,New,Another Sporting Goods Company,Another Sporting Goods Company,New value,,New,New
+86,133,"133,00",New value,,New,Michael Graff,Michael Graff,New value,,New,Commercial Sporting Goods,Commercial Sporting Goods,New value,,New,New
+87,136,"136,00",New value,,New,Derek Graham,Derek Graham,New value,,New,Wholesale Parts,Wholesale Parts,New value,,New,New
+88,137,"137,00",New value,,New,Gytis Barzdukas,Gytis Barzdukas,New value,,New,Transportation Options,Transportation Options,New value,,New,New
+89,138,"138,00",New value,,New,Jane Clayton,Jane Clayton,New value,,New,South Bike Company,South Bike Company,New value,,New,New
+90,142,"142,00",New value,,New,Jon Grande,Jon Grande,New value,,New,Riding Cycles,Riding Cycles,New value,,New,New
+91,145,"145,00",New value,,New,Ted Bremer,Ted Bremer,New value,,New,Raw Materials Inc,Raw Materials Inc,New value,,New,New
+92,146,"146,00",New value,,New,Richard Bready,Richard Bready,New value,,New,Latest Sports Equipment,Latest Sports Equipment,New value,,New,New
+93,147,"147,00",New value,,New,Alice Clark,Alice Clark,New value,,New,Local Hardware Factory,Local Hardware Factory,New value,,New,New
+94,148,"148,00",New value,,New,Alan Brewer,Alan Brewer,New value,,New,Lots of Bikes Storehouse,Lots of Bikes Storehouse,New value,,New,New
+95,149,"149,00",New value,,New,Cornelius Brandon,Cornelius Brandon,New value,,New,Initial Bike Company,Initial Bike Company,New value,,New,New
+96,150,"150,00",New value,,New,Jill Christie,Jill Christie,New value,,New,Fleet Bikes,Fleet Bikes,New value,,New,New
+97,151,"151,00",New value,,New,Walter Brian,Walter Brian,New value,,New,Futuristic Bikes,Futuristic Bikes,New value,,New,New
+98,154,"154,00",New value,,New,Carlton Carlisle,Carlton Carlisle,New value,,New,Camping and Sports Store,Camping and Sports Store,New value,,New,New
+99,155,"155,00",New value,,New,Joseph Castellucio,Joseph Castellucio,New value,,New,Corner Bicycle Supply,Corner Bicycle Supply,New value,,New,New
+100,156,"156,00",New value,,New,Lester Bowman,Lester Bowman,New value,,New,Metal Processing Company,Metal Processing Company,New value,,New,New
+101,160,"160,00",New value,,New,Brigid Cavendish,Brigid Cavendish,New value,,New,Vigorous Sports Store,Vigorous Sports Store,New value,,New,New
+102,163,"163,00",New value,,New,Andrew Cencini,Andrew Cencini,New value,,New,Sports Merchandise,Sports Merchandise,New value,,New,New
+103,164,"164,00",New value,,New,Cindy Dodd,Cindy Dodd,New value,,New,Suburban Cycle Shop,Suburban Cycle Shop,New value,,New,New
+104,165,"165,00",New value,,New,Randall Boseman,Randall Boseman,New value,,New,Third Bike Store,Third Bike Store,New value,,New,New
+105,166,"166,00",New value,,New,Stacey Cereghino,Stacey Cereghino,New value,,New,Fitness Toy Store,Fitness Toy Store,New value,,New,New
+106,167,"167,00",New value,,New,Blaine Dockter,Blaine Dockter,New value,,New,Farthermost Bike Shop,Farthermost Bike Shop,New value,,New,New
+107,168,"168,00",New value,,New,Luis Bonifaz,Luis Bonifaz,New value,,New,Economy Bikes Company,Economy Bikes Company,New value,,New,New
+108,169,"169,00",New value,,New,Brenda Diaz,Brenda Diaz,New value,,New,Downtown Hotel,Downtown Hotel,New value,,New,New
+109,172,"172,00",New value,,New,Gabriele Dickmann,Gabriele Dickmann,New value,,New,Certified Sports Supply,Certified Sports Supply,New value,,New,New
+110,173,"173,00",New value,,New,Rudolph Dillon,Rudolph Dillon,New value,,New,Sundry Sporting Goods,Sundry Sporting Goods,New value,,New,New
+111,174,"174,00",New value,,New,Michael Bohling,Michael Bohling,New value,,New,Toy Manufacturing Inc,Toy Manufacturing Inc,New value,,New,New
+112,178,"178,00",New value,,New,Dick Dievendorff,Dick Dievendorff,New value,,New,Rampart Amusement Company,Rampart Amusement Company,New value,,New,New
+113,180,"180,00",New value,,New,Nicky Chesnut,Nicky Chesnut,New value,,New,Full-Service Bike Store,Full-Service Bike Store,New value,,New,New
+114,181,"181,00",New value,,New,Michael Lee,Michael Lee,New value,,New,Family Entertainment Center,Family Entertainment Center,New value,,New,New
+115,182,"182,00",New value,,New,Stanley Alan,Stanley Alan,New value,,New,Another Bicycle Company,Another Bicycle Company,New value,,New,New
+116,183,"183,00",New value,,New,Yao-Qiang Cheng,Yao-Qiang Cheng,New value,,New,This Area Sporting Goods,This Area Sporting Goods,New value,,New,New
+117,184,"184,00",New value,,New,Marjorie Lee,Marjorie Lee,New value,,New,Go-cart and Bike Specialists,Go-cart and Bike Specialists,New value,,New,New
+118,185,"185,00",New value,,New,Sandeep Kaliyath,Sandeep Kaliyath,New value,,New,Weekend Bike Tours,Weekend Bike Tours,New value,,New,New
+119,186,"186,00",New value,,New,Pei Chow,Pei Chow,New value,,New,Thrilling Bike Tours,Thrilling Bike Tours,New value,,New,New
+120,187,"187,00",New value,,New,Frank Campbell,Frank Campbell,New value,,New,Trailblazing Sports,Trailblazing Sports,New value,,New,New
+121,190,"190,00",New value,,New,Mark Lee,Mark Lee,New value,,New,Racing Partners,Racing Partners,New value,,New,New
+122,191,"191,00",New value,,New,Sandra Kitt,Sandra Kitt,New value,,New,Non-Slip Pedal Company,Non-Slip Pedal Company,New value,,New,New
+123,192,"192,00",New value,,New,Hao Chen,Hao Chen,New value,,New,Nuts and Bolts Mfg.,Nuts and Bolts Mfg.,New value,,New,New
+124,196,"196,00",New value,,New,Jolie Lenehan,Jolie Lenehan,New value,,New,Exhibition Showroom,Exhibition Showroom,New value,,New,New
+125,197,"197,00",New value,,New,Diane Krane,Diane Krane,New value,,New,"Fabrikam Inc., West","Fabrikam Inc., West",New value,,New,New
+126,198,"198,00",New value,,New,Payton Benson,Payton Benson,New value,,New,Field Trip Inc,Field Trip Inc,New value,,New,New
+127,199,"199,00",New value,,New,Roger Lengel,Roger Lengel,New value,,New,Authorized Bike Sales and Rental,Authorized Bike Sales and Rental,New value,,New,New
+128,200,"200,00",New value,,New,Peggy Justice,Peggy Justice,New value,,New,Basic Bike Company,Basic Bike Company,New value,,New,New
+129,201,"201,00",New value,,New,Edna Benson,Edna Benson,New value,,New,Unsurpassed Bikes,Unsurpassed Bikes,New value,,New,New
+130,202,"202,00",New value,,New,A. Leonetti,A. Leonetti,New value,,New,Two-Seater Bikes,Two-Seater Bikes,New value,,New,New
+131,203,"203,00",New value,,New,Jean Jordan,Jean Jordan,New value,,New,Separate Parts Corporation,Separate Parts Corporation,New value,,New,New
+132,204,"204,00",New value,,New,Ido Ben-Sachar,Ido Ben-Sachar,New value,,New,Traction Tire Company,Traction Tire Company,New value,,New,New
+133,205,"205,00",New value,,New,Frank Mart¡nez,Frank Mart¡nez,New value,,New,Rally Master Company Inc,Rally Master Company Inc,New value,,New,New
+134,208,"208,00",New value,,New,Steve Masters,Steve Masters,New value,,New,Professional Cyclists,Professional Cyclists,New value,,New,New
+135,209,"209,00",New value,,New,Robert Jones,Robert Jones,New value,,New,Purple Bicycle Company,Purple Bicycle Company,New value,,New,New
+136,210,"210,00",New value,,New,Josh Barnhill,Josh Barnhill,New value,,New,Gasless Cycle Shop,Gasless Cycle Shop,New value,,New,New
+137,214,"214,00",New value,,New,Jennifer Maxham,Jennifer Maxham,New value,,New,Exclusive Bicycle Mart,Exclusive Bicycle Mart,New value,,New,New
+138,217,"217,00",New value,,New,Chris Maxwell,Chris Maxwell,New value,,New,City Manufacturing,City Manufacturing,New value,,New,New
+139,218,"218,00",New value,,New,David Johnson,David Johnson,New value,,New,Sure & Reliable Sporting Goods,Sure & Reliable Sporting Goods,New value,,New,New
+140,219,"219,00",New value,,New,Brian Johnson,Brian Johnson,New value,,New,Extras Sporting Goods,Extras Sporting Goods,New value,,New,New
+141,220,"220,00",New value,,New,Robert Brown,Robert Brown,New value,,New,Best o' Bikes,Best o' Bikes,New value,,New,New
+142,221,"221,00",New value,,New,Sandra Maynard,Sandra Maynard,New value,,New,Bike Dealers Association,Bike Dealers Association,New value,,New,New
+143,222,"222,00",New value,,New,Barry Johnson,Barry Johnson,New value,,New,Sample Bike Store,Sample Bike Store,New value,,New,New
+144,223,"223,00",New value,,New,Joyce Jarvis,Joyce Jarvis,New value,,New,Paints and Solvents Company,Paints and Solvents Company,New value,,New,New
+145,226,"226,00",New value,,New,Vance Johns,Vance Johns,New value,,New,Leisure Activities,Leisure Activities,New value,,New,New
+146,227,"227,00",New value,,New,Robin McGuigan,Robin McGuigan,New value,,New,"Health Spa, Limited","Health Spa, Limited",New value,,New,New
+147,228,"228,00",New value,,New,Danielle Johnson,Danielle Johnson,New value,,New,Home Town Bike Store,Home Town Bike Store,New value,,New,New
+148,232,"232,00",New value,,New,David Jaffe,David Jaffe,New value,,New,Exceptional Cycle Services,Exceptional Cycle Services,New value,,New,New
+149,235,"235,00",New value,,New,Mary Alexander,Mary Alexander,New value,,New,Certified Bicycle Supply,Certified Bicycle Supply,New value,,New,New
+150,236,"236,00",New value,,New,Lola McCarthy,Lola McCarthy,New value,,New,Closeout Boutique,Closeout Boutique,New value,,New,New
+151,237,"237,00",New value,,New,Mary Browning,Mary Browning,New value,,New,Client Discount Store,Client Discount Store,New value,,New,New
+152,238,"238,00",New value,,New,Jodan Jacobson,Jodan Jacobson,New value,,New,A Great Bicycle Company,A Great Bicycle Company,New value,,New,New
+153,239,"239,00",New value,,New,Jane McCarty,Jane McCarty,New value,,New,Bicycle Merchandise Warehouse,Bicycle Merchandise Warehouse,New value,,New,New
+154,240,"240,00",New value,,New,Jessie Valerio,Jessie Valerio,New value,,New,Wire Baskets and Parts,Wire Baskets and Parts,New value,,New,New
+155,241,"241,00",New value,,New,Eric Jacobsen,Eric Jacobsen,New value,,New,Vale Riding Supplies,Vale Riding Supplies,New value,,New,New
+156,244,"244,00",New value,,New,Bronson Jacobs,Bronson Jacobs,New value,,New,Retail Discount Store,Retail Discount Store,New value,,New,New
+157,245,"245,00",New value,,New,James McCoy,James McCoy,New value,,New,Leather Seat Factory,Leather Seat Factory,New value,,New,New
+158,246,"246,00",New value,,New,Esther Valle,Esther Valle,New value,,New,Large Bike Shop,Large Bike Shop,New value,,New,New
+159,250,"250,00",New value,,New,Denean Ison,Denean Ison,New value,,New,Express Bike Services,Express Bike Services,New value,,New,New
+160,253,"253,00",New value,,New,Erik Ismert,Erik Ismert,New value,,New,Roving Sports,Roving Sports,New value,,New,New
+161,254,"254,00",New value,,New,Robert Bernacchi,Robert Bernacchi,New value,,New,Safe Cycles Shop,Safe Cycles Shop,New value,,New,New
+162,255,"255,00",New value,,New,Sunil Uppal,Sunil Uppal,New value,,New,Swift Cycles,Swift Cycles,New value,,New,New
+163,256,"256,00",New value,,New,Richard Irwin,Richard Irwin,New value,,New,Rental Bikes,Rental Bikes,New value,,New,New
+164,257,"257,00",New value,,New,Matthias Berndt,Matthias Berndt,New value,,New,Number 1 Supply,Number 1 Supply,New value,,New,New
+165,258,"258,00",New value,,New,Sairaj Uddin,Sairaj Uddin,New value,,New,Quantity Discounts,Quantity Discounts,New value,,New,New
+166,259,"259,00",New value,,New,Lucio Iallo,Lucio Iallo,New value,,New,Highway Bike Shop,Highway Bike Shop,New value,,New,New
+167,262,"262,00",New value,,New,Beth Inghram,Beth Inghram,New value,,New,General Industries,General Industries,New value,,New,New
+168,263,"263,00",New value,,New,Timothy Burnett,Timothy Burnett,New value,,New,Farthest Bike Store,Farthest Bike Store,New value,,New,New
+169,264,"264,00",New value,,New,Phyllis Tuffield,Phyllis Tuffield,New value,,New,Fasteners & Bolts Outlet,Fasteners & Bolts Outlet,New value,,New,New
+170,268,"268,00",New value,,New,Richard Byham,Richard Byham,New value,,New,Channel Outlet,Channel Outlet,New value,,New,New
+171,271,"271,00",New value,,New,Jared Bustamante,Jared Bustamante,New value,,New,Alternative Vehicles,Alternative Vehicles,New value,,New,New
+172,272,"272,00",New value,,New,Henry Campen,Henry Campen,New value,,New,Metro Cycle Shop,Metro Cycle Shop,New value,,New,New
+173,273,"273,00",New value,,New,Christie Trujillo,Christie Trujillo,New value,,New,A Typical Bike Shop,A Typical Bike Shop,New value,,New,New
+174,274,"274,00",New value,,New,Janet Gilliat,Janet Gilliat,New value,,New,Active Systems,Active Systems,New value,,New,New
+175,275,"275,00",New value,,New,Chris Cannon,Chris Cannon,New value,,New,Outdoor Sporting Goods,Outdoor Sporting Goods,New value,,New,New
+176,276,"276,00",New value,,New,Michael John Troyer,Michael John Troyer,New value,,New,Thrifty Parts and Sales,Thrifty Parts and Sales,New value,,New,New
+177,277,"277,00",New value,,New,Guy Gilbert,Guy Gilbert,New value,,New,The Bicycle Accessories Company,The Bicycle Accessories Company,New value,,New,New
+178,280,"280,00",New value,,New,Frances Giglio,Frances Giglio,New value,,New,Standard Bikes,Standard Bikes,New value,,New,New
+179,281,"281,00",New value,,New,Suzana De Abreu Canuto,Suzana De Abreu Canuto,New value,,New,Petroleum Products Distributors,Petroleum Products Distributors,New value,,New,New
+180,282,"282,00",New value,,New,Billy Trent,Billy Trent,New value,,New,Quick Parts and Service,Quick Parts and Service,New value,,New,New
+181,286,"286,00",New value,,New,Leo Giakoumakis,Leo Giakoumakis,New value,,New,Number One Bike Co.,Number One Bike Co.,New value,,New,New
+182,287,"287,00",New value,,New,Grant Culbertson,Grant Culbertson,New value,,New,Handy Bike Services,Handy Bike Services,New value,,New,New
+183,288,"288,00",New value,,New,Robert Barker,Robert Barker,New value,,New,Kickstand Sellers,Kickstand Sellers,New value,,New,New
+184,289,"289,00",New value,,New,Gabriel Bockenkamp,Gabriel Bockenkamp,New value,,New,Moderately-Priced Bikes Store,Moderately-Priced Bikes Store,New value,,New,New
+185,290,"290,00",New value,,New,Scott Culp,Scott Culp,New value,,New,Friendly Bike Shop,Friendly Bike Shop,New value,,New,New
+186,291,"291,00",New value,,New,Wayne Banack,Wayne Banack,New value,,New,Grand Bicycle Stores,Grand Bicycle Stores,New value,,New,New
+187,292,"292,00",New value,,New,Michael Blythe,Michael Blythe,New value,,New,Grease and Oil Products Company,Grease and Oil Products Company,New value,,New,New
+188,293,"293,00",New value,,New,Conor Cunningham,Conor Cunningham,New value,,New,Fashionable Bikes and Accessories,Fashionable Bikes and Accessories,New value,,New,New
+189,294,"294,00",New value,,New,Alberto Baltazar,Alberto Baltazar,New value,,New,Flawless Bike Shop,Flawless Bike Shop,New value,,New,New
+190,295,"295,00",New value,,New,Joseph Mitzner,Joseph Mitzner,New value,,New,Engineered Bike Systems,Engineered Bike Systems,New value,,New,New
+191,298,"298,00",New value,,New,Robert Mitosinka,Robert Mitosinka,New value,,New,City Cycling,City Cycling,New value,,New,New
+192,299,"299,00",New value,,New,Thierry D'Hers,Thierry D'Hers,New value,,New,Citywide Service and Repair,Citywide Service and Repair,New value,,New,New
+193,300,"300,00",New value,,New,Daniel Blanco,Daniel Blanco,New value,,New,Nice Bikes,Nice Bikes,New value,,New,New
+194,304,"304,00",New value,,New,Linda Mitchell,Linda Mitchell,New value,,New,Essential Bike Works,Essential Bike Works,New value,,New,New
+195,306,"306,00",New value,,New,Stephen Ayers,Stephen Ayers,New value,,New,Work and Play Association,Work and Play Association,New value,,New,New
+196,307,"307,00",New value,,New,Neva Mitchell,Neva Mitchell,New value,,New,Riding Associates,Riding Associates,New value,,New,New
+197,308,"308,00",New value,,New,Megan Davis,Megan Davis,New value,,New,Rugged Bikes,Rugged Bikes,New value,,New,New
+198,309,"309,00",New value,,New,John Arthur,John Arthur,New value,,New,The Gear Store,The Gear Store,New value,,New,New
+199,310,"310,00",New value,,New,Frank Miller,Frank Miller,New value,,New,Orange Bicycle Company,Orange Bicycle Company,New value,,New,New
+200,311,"311,00",New value,,New,Alvaro De Matos Miranda Filho,Alvaro De Matos Miranda Filho,New value,,New,Principal Bike Company,Principal Bike Company,New value,,New,New
+201,312,"312,00",New value,,New,Thomas Armstrong,Thomas Armstrong,New value,,New,Resale Services,Resale Services,New value,,New,New
+202,313,"313,00",New value,,New,Dylan Miller,Dylan Miller,New value,,New,Metropolitan Manufacturing,Metropolitan Manufacturing,New value,,New,New
+203,316,"316,00",New value,,New,Ben Miller,Ben Miller,New value,,New,Low Price Cycles,Low Price Cycles,New value,,New,New
+204,317,"317,00",New value,,New,Jacob Dean,Jacob Dean,New value,,New,Finer Riding Supplies,Finer Riding Supplies,New value,,New,New
+205,318,"318,00",New value,,New,Ann Beebe,Ann Beebe,New value,,New,First-Rate Outlet,First-Rate Outlet,New value,,New,New
+206,322,"322,00",New value,,New,Matthew Miller,Matthew Miller,New value,,New,Tachometers and Accessories,Tachometers and Accessories,New value,,New,New
+207,323,"323,00",New value,,New,Jo Brown,Jo Brown,New value,,New,Metro Bike Works,Metro Bike Works,New value,,New,New
+208,325,"325,00",New value,,New,Virginia Miller,Virginia Miller,New value,,New,All Cycle Shop,All Cycle Shop,New value,,New,New
+209,326,"326,00",New value,,New,Scott Gode,Scott Gode,New value,,New,Year-Round Sports,Year-Round Sports,New value,,New,New
+210,327,"327,00",New value,,New,Caroline Vicknair,Caroline Vicknair,New value,,New,World of Bikes,World of Bikes,New value,,New,New
+211,328,"328,00",New value,,New,Robert Vessa,Robert Vessa,New value,,New,Totes & Baskets Company,Totes & Baskets Company,New value,,New,New
+212,329,"329,00",New value,,New,Andreas Berglund,Andreas Berglund,New value,,New,"Unicycles, Bicycles, and Tricycles","Unicycles, Bicycles, and Tricycles",New value,,New,New
+213,330,"330,00",New value,,New,Mete Goktepe,Mete Goktepe,New value,,New,The New Bike Store,The New Bike Store,New value,,New,New
+214,331,"331,00",New value,,New,Wanda Vernon,Wanda Vernon,New value,,New,Technical Parts Manufacturing,Technical Parts Manufacturing,New value,,New,New
+215,334,"334,00",New value,,New,Dora Verdad,Dora Verdad,New value,,New,Retreat Inn,Retreat Inn,New value,,New,New
+216,335,"335,00",New value,,New,John Berger,John Berger,New value,,New,Scratch-Resistant Finishes Company,Scratch-Resistant Finishes Company,New value,,New,New
+217,336,"336,00",New value,,New,Brian Goldstein,Brian Goldstein,New value,,New,Primary Bike Distributors,Primary Bike Distributors,New value,,New,New
+218,340,"340,00",New value,,New,Raja Venugopal,Raja Venugopal,New value,,New,Nearby Cycle Shop,Nearby Cycle Shop,New value,,New,New
+219,343,"343,00",New value,,New,Patricia Vasquez,Patricia Vasquez,New value,,New,Mail-Order Outlet,Mail-Order Outlet,New value,,New,New
+220,344,"344,00",New value,,New,Karren Burkhardt,Karren Burkhardt,New value,,New,Fifth Bike Store,Fifth Bike Store,New value,,New,New
+221,345,"345,00",New value,,New,Abigail Gonzalez,Abigail Gonzalez,New value,,New,Genial Bike Associates,Genial Bike Associates,New value,,New,New
+222,346,"346,00",New value,,New,Ranjit Varkey Chudukatil,Ranjit Varkey Chudukatil,New value,,New,Great Bicycle Supply,Great Bicycle Supply,New value,,New,New
+223,347,"347,00",New value,,New,Ingrid Burkhardt,Ingrid Burkhardt,New value,,New,Bike Universe,Bike Universe,New value,,New,New
+224,348,"348,00",New value,,New,Oscar Alpuerto,Oscar Alpuerto,New value,,New,Bold Bike Accessories,Bold Bike Accessories,New value,,New,New
+225,349,"349,00",New value,,New,Gary Vargas,Gary Vargas,New value,,New,Exercise Center,Exercise Center,New value,,New,New
+226,352,"352,00",New value,,New,Shane Kim,Shane Kim,New value,,New,Twelfth Bike Store,Twelfth Bike Store,New value,,New,New
+227,353,"353,00",New value,,New,Joan Campbell,Joan Campbell,New value,,New,Two-Wheeled Transit Company,Two-Wheeled Transit Company,New value,,New,New
+228,354,"354,00",New value,,New,Maxwell Amland,Maxwell Amland,New value,,New,Serious Cycles,Serious Cycles,New value,,New,New
+229,358,"358,00",New value,,New,Joe Kim,Joe Kim,New value,,New,Mail Market,Mail Market,New value,,New,New
+230,360,"360,00",New value,,New,Ramona Antrim,Ramona Antrim,New value,,New,Novelty Bikes,Novelty Bikes,New value,,New,New
+231,361,"361,00",New value,,New,Karan Khanna,Karan Khanna,New value,,New,Fitness Supplies,Fitness Supplies,New value,,New,New
+232,362,"362,00",New value,,New,Sharon Crow,Sharon Crow,New value,,New,Grand Cycle Store,Grand Cycle Store,New value,,New,New
+233,363,"363,00",New value,,New,Chris Ashton,Chris Ashton,New value,,New,Immense Manufacturing Company,Immense Manufacturing Company,New value,,New,New
+234,364,"364,00",New value,,New,Imtiaz Khan,Imtiaz Khan,New value,,New,District Mall,District Mall,New value,,New,New
+235,365,"365,00",New value,,New,Jack Creasey,Jack Creasey,New value,,New,Distinctive Store,Distinctive Store,New value,,New,New
+236,366,"366,00",New value,,New,Teresa Atkinson,Teresa Atkinson,New value,,New,Extended Bike Sales,Extended Bike Sales,New value,,New,New
+237,367,"367,00",New value,,New,Tammy Khan,Tammy Khan,New value,,New,Brown Bicycle Company,Brown Bicycle Company,New value,,New,New
+238,370,"370,00",New value,,New,Elizabeth Keyser,Elizabeth Keyser,New value,,New,Acceptable Sales & Service,Acceptable Sales & Service,New value,,New,New
+239,371,"371,00",New value,,New,Bruno Costa Da Silva,Bruno Costa Da Silva,New value,,New,Custom Sales and Service,Custom Sales and Service,New value,,New,New
+240,372,"372,00",New value,,New,Katherine Swan,Katherine Swan,New value,,New,Top Bike Market,Top Bike Market,New value,,New,New
+241,376,"376,00",New value,,New,Mary Kesslep,Mary Kesslep,New value,,New,Commerce Bicycle Specialists,Commerce Bicycle Specialists,New value,,New,New
+242,377,"377,00",New value,,New,Marlin Coriell,Marlin Coriell,New value,,New,Grand Sport Boutique,Grand Sport Boutique,New value,,New,New
+243,379,"379,00",New value,,New,Kevin Kennedy,Kevin Kennedy,New value,,New,Fad Outlet,Fad Outlet,New value,,New,New
+244,380,"380,00",New value,,New,Eva Corets,Eva Corets,New value,,New,First Department Stores,First Department Stores,New value,,New,New
+245,381,"381,00",New value,,New,Julie Taft-Rider,Julie Taft-Rider,New value,,New,Bicycle Lines Distributors,Bicycle Lines Distributors,New value,,New,New
+246,382,"382,00",New value,,New,Robert Kelly,Robert Kelly,New value,,New,Beneficial Exercises and Activities,Beneficial Exercises and Activities,New value,,New,New
+247,383,"383,00",New value,,New,Scott Cooper,Scott Cooper,New value,,New,Vehicle Shop,Vehicle Shop,New value,,New,New
+248,384,"384,00",New value,,New,Clarence Tatman,Clarence Tatman,New value,,New,Sparkling Paint and Finishes,Sparkling Paint and Finishes,New value,,New,New
+249,385,"385,00",New value,,New,John Kelly,John Kelly,New value,,New,Sturdy Toys,Sturdy Toys,New value,,New,New
+250,388,"388,00",New value,,New,Victor Kelley,Victor Kelley,New value,,New,Road Way Sales and Rental,Road Way Sales and Rental,New value,,New,New
+251,389,"389,00",New value,,New,Dorothy Contreras,Dorothy Contreras,New value,,New,Sixth Bike Store,Sixth Bike Store,New value,,New,New
+252,390,"390,00",New value,,New,Mike Taylor,Mike Taylor,New value,,New,Plastic Parts Company,Plastic Parts Company,New value,,New,New
+253,394,"394,00",New value,,New,Bonnie Kearney,Bonnie Kearney,New value,,New,Little Sports Center,Little Sports Center,New value,,New,New
+254,395,"395,00",New value,,New,June Brunner,June Brunner,New value,,New,Online Bike Sellers,Online Bike Sellers,New value,,New,New
+255,397,"397,00",New value,,New,Sandeep Katyal,Sandeep Katyal,New value,,New,Capable Sales and Service,Capable Sales and Service,New value,,New,New
+256,398,"398,00",New value,,New,Shirley Bruner,Shirley Bruner,New value,,New,Commendable Bikes,Commendable Bikes,New value,,New,New
+257,399,"399,00",New value,,New,Chad Tedford,Chad Tedford,New value,,New,Big Cycle Mall,Big Cycle Mall,New value,,New,New
+258,400,"400,00",New value,,New,Peter Houston,Peter Houston,New value,,New,Local Sales and Rental,Local Sales and Rental,New value,,New,New
+259,401,"401,00",New value,,New,Tom Johnston,Tom Johnston,New value,,New,Brightwork Company,Brightwork Company,New value,,New,New
+260,402,"402,00",New value,,New,Marian Berch,Marian Berch,New value,,New,Pro Sporting Goods,Pro Sporting Goods,New value,,New,New
+261,403,"403,00",New value,,New,Juanita Holman,Juanita Holman,New value,,New,Affordable Sports Equipment,Affordable Sports Equipment,New value,,New,New
+262,406,"406,00",New value,,New,Eddie Holmes,Eddie Holmes,New value,,New,The Commissary,The Commissary,New value,,New,New
+263,407,"407,00",New value,,New,Robert Avalos,Robert Avalos,New value,,New,Workout Emporium,Workout Emporium,New value,,New,New
+264,408,"408,00",New value,,New,Alexander Berger,Alexander Berger,New value,,New,Odometers and Accessories Company,Odometers and Accessories Company,New value,,New,New
+265,412,"412,00",New value,,New,Jean Holloway,Jean Holloway,New value,,New,Leisure Clearing House,Leisure Clearing House,New value,,New,New
+266,415,"415,00",New value,,New,Greg Chapman,Greg Chapman,New value,,New,Imaginary Toys,Imaginary Toys,New value,,New,New
+267,416,"416,00",New value,,New,Angela Barbariol,Angela Barbariol,New value,,New,Impromptu Trips,Impromptu Trips,New value,,New,New
+268,417,"417,00",New value,,New,Ruth Choin,Ruth Choin,New value,,New,Genuine Bike Shop,Genuine Bike Shop,New value,,New,New
+269,418,"418,00",New value,,New,Lee Chapla,Lee Chapla,New value,,New,Good Bike Shop,Good Bike Shop,New value,,New,New
+270,419,"419,00",New value,,New,Darrell Banks,Darrell Banks,New value,,New,Exertion Activities Club,Exertion Activities Club,New value,,New,New
+271,420,"420,00",New value,,New,Anthony Chor,Anthony Chor,New value,,New,Extreme Riding Supplies,Extreme Riding Supplies,New value,,New,New
+272,421,"421,00",New value,,New,Forrest Chandler,Forrest Chandler,New value,,New,Fitness Cycling,Fitness Cycling,New value,,New,New
+273,424,"424,00",New value,,New,Eli Bowen,Eli Bowen,New value,,New,Bikes for Two,Bikes for Two,New value,,New,New
+274,425,"425,00",New value,,New,Stephen Jiang,Stephen Jiang,New value,,New,Bikes for Kids and Adults,Bikes for Kids and Adults,New value,,New,New
+275,426,"426,00",New value,,New,Dirk Bruno,Dirk Bruno,New value,,New,Custom Accessories Company,Custom Accessories Company,New value,,New,New
+276,430,"430,00",New value,,New,Gustavo Camargo,Gustavo Camargo,New value,,New,Uttermost Bike Shop,Uttermost Bike Shop,New value,,New,New
+277,431,"431,00",New value,,New,Douglas Baldwin,Douglas Baldwin,New value,,New,Small Cycle Store,Small Cycle Store,New value,,New,New
+278,433,"433,00",New value,,New,Lindsey Camacho,Lindsey Camacho,New value,,New,Thorough Parts and Repair Services,Thorough Parts and Repair Services,New value,,New,New
+279,434,"434,00",New value,,New,James Bailey,James Bailey,New value,,New,Road-Way Mart,Road-Way Mart,New value,,New,New
+280,435,"435,00",New value,,New,Carol Elliott,Carol Elliott,New value,,New,Satin Finish Company,Satin Finish Company,New value,,New,New
+281,436,"436,00",New value,,New,Barbara Calone,Barbara Calone,New value,,New,Sheet Metal Manufacturing,Sheet Metal Manufacturing,New value,,New,New
+282,437,"437,00",New value,,New,Megan Burke,Megan Burke,New value,,New,Professional Cycle Store,Professional Cycle Store,New value,,New,New
+283,438,"438,00",New value,,New,Cory Booth,Cory Booth,New value,,New,Remarkable Bike Store,Remarkable Bike Store,New value,,New,New
+284,439,"439,00",New value,,New,Shannon Elliott,Shannon Elliott,New value,,New,Regional Manufacturing,Regional Manufacturing,New value,,New,New
+285,442,"442,00",New value,,New,Jauna Elson,Jauna Elson,New value,,New,Original Bicycle Supply Company,Original Bicycle Supply Company,New value,,New,New
+286,443,"443,00",New value,,New,Janaina Barreiro Gambaro Bueno,Janaina Barreiro Gambaro Bueno,New value,,New,Courteous Bicycle Specialists,Courteous Bicycle Specialists,New value,,New,New
+287,444,"444,00",New value,,New,Shaun Beasley,Shaun Beasley,New value,,New,Finer Cycle Shop,Finer Cycle Shop,New value,,New,New
+288,448,"448,00",New value,,New,Terry Eminhizer,Terry Eminhizer,New value,,New,Action Bicycle Specialists,Action Bicycle Specialists,New value,,New,New
+289,451,"451,00",New value,,New,John Emory,John Emory,New value,,New,Roadway Bike Emporium,Roadway Bike Emporium,New value,,New,New
+290,452,"452,00",New value,,New,Olga Trau,Olga Trau,New value,,New,A Cycle Shop,A Cycle Shop,New value,,New,New
+291,453,"453,00",New value,,New,Jon Ganio,Jon Ganio,New value,,New,Unique Bikes,Unique Bikes,New value,,New,New
+292,454,"454,00",New value,,New,Gail Erickson,Gail Erickson,New value,,New,Sleek Bikes,Sleek Bikes,New value,,New,New
+293,455,"455,00",New value,,New,James Tran,James Tran,New value,,New,Timely Shipping Service,Timely Shipping Service,New value,,New,New
+294,456,"456,00",New value,,New,Michael Galos,Michael Galos,New value,,New,Riding Excursions,Riding Excursions,New value,,New,New
+295,457,"457,00",New value,,New,Mark Erickson,Mark Erickson,New value,,New,Retail Sporting Equipment,Retail Sporting Equipment,New value,,New,New
+296,460,"460,00",New value,,New,Martha Espinoza,Martha Espinoza,New value,,New,Price-Cutter Discount Bikes,Price-Cutter Discount Bikes,New value,,New,New
+297,461,"461,00",New value,,New,Glenn Track,Glenn Track,New value,,New,Active Life Toys,Active Life Toys,New value,,New,New
+298,462,"462,00",New value,,New,Bob Gage,Bob Gage,New value,,New,General Riding Supplies,General Riding Supplies,New value,,New,New
+299,466,"466,00",New value,,New,Janeth Esteves,Janeth Esteves,New value,,New,Central Bicycle Specialists,Central Bicycle Specialists,New value,,New,New
+300,468,"468,00",New value,,New,Paul Fulton,Paul Fulton,New value,,New,Blue Bicycle Company,Blue Bicycle Company,New value,,New,New
+301,469,"469,00",New value,,New,Twanna Evans,Twanna Evans,New value,,New,Vast Bike Sales and Rental,Vast Bike Sales and Rental,New value,,New,New
+302,470,"470,00",New value,,New,Delia Toone,Delia Toone,New value,,New,Wingtip Toys,Wingtip Toys,New value,,New,New
+303,471,"471,00",New value,,New,John Ford,John Ford,New value,,New,Social Activities Club,Social Activities Club,New value,,New,New
+304,472,"472,00",New value,,New,Ann Evans,Ann Evans,New value,,New,Summer Sports Place,Summer Sports Place,New value,,New,New
+305,473,"473,00",New value,,New,Kay Krane,Kay Krane,New value,,New,Racing Toys,Racing Toys,New value,,New,New
+306,474,"474,00",New value,,New,Mihail Frintu,Mihail Frintu,New value,,New,Retail Cycle Shop,Retail Cycle Shop,New value,,New,New
+307,475,"475,00",New value,,New,John Evans,John Evans,New value,,New,Real Sporting Goods,Real Sporting Goods,New value,,New,New
+308,478,"478,00",New value,,New,Ruby Sue Styles,Ruby Sue Styles,New value,,New,Major Cycling,Major Cycling,New value,,New,New
+309,479,"479,00",New value,,New,Lori Kane,Lori Kane,New value,,New,General Supplies,General Supplies,New value,,New,New
+310,480,"480,00",New value,,New,Susan French,Susan French,New value,,New,General Bike Corporation,General Bike Corporation,New value,,New,New
+311,484,"484,00",New value,,New,Gary Suess,Gary Suess,New value,,New,Downhill Bicycle Specialists,Downhill Bicycle Specialists,New value,,New,New
+312,487,"487,00",New value,,New,Ruth Suffin,Ruth Suffin,New value,,New,Bike Experts,Bike Experts,New value,,New,New
+313,488,"488,00",New value,,New,Margaret Smith,Margaret Smith,New value,,New,Bicycle Accessories and Kits,Bicycle Accessories and Kits,New value,,New,New
+314,489,"489,00",New value,,New,Dorothy Fox,Dorothy Fox,New value,,New,Cash & Carry Bikes,Cash & Carry Bikes,New value,,New,New
+315,490,"490,00",New value,,New,Elizabeth Sullivan,Elizabeth Sullivan,New value,,New,Extraordinary Bike Works,Extraordinary Bike Works,New value,,New,New
+316,491,"491,00",New value,,New,Frances Adams,Frances Adams,New value,,New,Area Bike Accessories,Area Bike Accessories,New value,,New,New
+317,492,"492,00",New value,,New,Garth Fort,Garth Fort,New value,,New,Basic Sports Equipment,Basic Sports Equipment,New value,,New,New
+318,493,"493,00",New value,,New,Michael Sullivan,Michael Sullivan,New value,,New,Valley Bicycle Distributors,Valley Bicycle Distributors,New value,,New,New
+319,496,"496,00",New value,,New,Marcia Sultan,Marcia Sultan,New value,,New,Top Sports Supply,Top Sports Supply,New value,,New,New
+320,497,"497,00",New value,,New,Amy Alberts,Amy Alberts,New value,,New,Valley Toy Store,Valley Toy Store,New value,,New,New
+321,498,"498,00",New value,,New,Kelly Focht,Kelly Focht,New value,,New,Quick Delivery Service,Quick Delivery Service,New value,,New,New
+322,502,"502,00",New value,,New,Krishna Sunkammurali,Krishna Sunkammurali,New value,,New,Metropolitan Bicycle Supply,Metropolitan Bicycle Supply,New value,,New,New
+323,504,"504,00",New value,,New,Mae Black,Mae Black,New value,,New,Historic Bicycle Sales,Historic Bicycle Sales,New value,,New,New
+324,505,"505,00",New value,,New,Brad Sutton,Brad Sutton,New value,,New,Honest Repair Service,Honest Repair Service,New value,,New,New
+325,506,"506,00",New value,,New,François Ferrier,François Ferrier,New value,,New,Great Bikes,Great Bikes,New value,,New,New
+326,507,"507,00",New value,,New,Mary Bishop,Mary Bishop,New value,,New,Global Sporting Goods,Global Sporting Goods,New value,,New,New
+327,508,"508,00",New value,,New,Martin Svoboda,Martin Svoboda,New value,,New,Designer Department Stores,Designer Department Stores,New value,,New,New
+328,509,"509,00",New value,,New,Robert Ahlering,Robert Ahlering,New value,,New,Fun Toys and Bikes,Fun Toys and Bikes,New value,,New,New
+329,510,"510,00",New value,,New,Jimmy Bischoff,Jimmy Bischoff,New value,,New,World Bike Discount Store,World Bike Discount Store,New value,,New,New
+330,511,"511,00",New value,,New,Abraham Swearengin,Abraham Swearengin,New value,,New,Wheel Gallery,Wheel Gallery,New value,,New,New
+331,514,"514,00",New value,,New,Ryan Calafato,Ryan Calafato,New value,,New,Retail Mall,Retail Mall,New value,,New,New
+332,515,"515,00",New value,,New,Dragan Tomic,Dragan Tomic,New value,,New,Rural Bicycle Supply,Rural Bicycle Supply,New value,,New,New
+333,516,"516,00",New value,,New,Thomas Michaels,Thomas Michaels,New value,,New,Seats and Saddles Company,Seats and Saddles Company,New value,,New,New
+334,520,"520,00",New value,,New,Mari Caldwell,Mari Caldwell,New value,,New,Metro Metals Co.,Metro Metals Co.,New value,,New,New
+335,523,"523,00",New value,,New,Mary Gimmi,Mary Gimmi,New value,,New,Futuristic Sport Distributors,Futuristic Sport Distributors,New value,,New,New
+336,526,"526,00",New value,,New,David Givens,David Givens,New value,,New,Finer Sales and Service,Finer Sales and Service,New value,,New,New
+337,527,"527,00",New value,,New,Diane Tibbott,Diane Tibbott,New value,,New,Fun Times Club,Fun Times Club,New value,,New,New
+338,528,"528,00",New value,,New,Helen Meyer,Helen Meyer,New value,,New,Alpine Ski House,Alpine Ski House,New value,,New,New
+339,529,"529,00",New value,,New,Jeanie Glenn,Jeanie Glenn,New value,,New,Big-Time Bike Store,Big-Time Bike Store,New value,,New,New
+340,532,"532,00",New value,,New,Diane Glimp,Diane Glimp,New value,,New,The Showroom,The Showroom,New value,,New,New
+341,533,"533,00",New value,,New,Yuping Tian,Yuping Tian,New value,,New,Tenth Bike Store,Tenth Bike Store,New value,,New,New
+342,534,"534,00",New value,,New,Stephen Mew,Stephen Mew,New value,,New,Recommended Bicycles,Recommended Bicycles,New value,,New,New
+343,538,"538,00",New value,,New,John Brooks,John Brooks,New value,,New,Prosperous Tours,Prosperous Tours,New value,,New,New
+344,541,"541,00",New value,,New,Willie Brooks,Willie Brooks,New value,,New,Nonskid Tire Company,Nonskid Tire Company,New value,,New,New
+345,542,"542,00",New value,,New,Andrew Kobylinski,Andrew Kobylinski,New value,,New,Finer Parts Shop,Finer Parts Shop,New value,,New,New
+346,543,"543,00",New value,,New,R. Morgan Mendoza,R. Morgan Mendoza,New value,,New,Friendly Neighborhood Bikes,Friendly Neighborhood Bikes,New value,,New,New
+347,544,"544,00",New value,,New,Jay Adams,Jay Adams,New value,,New,Valley Bicycle Specialists,Valley Bicycle Specialists,New value,,New,New
+348,545,"545,00",New value,,New,Christian Kleinerman,Christian Kleinerman,New value,,New,Finish and Sealant Products,Finish and Sealant Products,New value,,New,New
+349,546,"546,00",New value,,New,Anton Kirilov,Anton Kirilov,New value,,New,Field Trip Store,Field Trip Store,New value,,New,New
+350,547,"547,00",New value,,New,Gladys Mendiola,Gladys Mendiola,New value,,New,Curbside Sporting Goods,Curbside Sporting Goods,New value,,New,New
+351,550,"550,00",New value,,New,Raquel Mello,Raquel Mello,New value,,New,Remote Bicycle Specialists,Remote Bicycle Specialists,New value,,New,New
+352,551,"551,00",New value,,New,Samuel Agcaoili,Samuel Agcaoili,New value,,New,Vinyl and Plastic Goods Corporation,Vinyl and Plastic Goods Corporation,New value,,New,New
+353,552,"552,00",New value,,New,Tim Kim,Tim Kim,New value,,New,Consolidated Messenger,Consolidated Messenger,New value,,New,New
+354,556,"556,00",New value,,New,Nancy McPhearson,Nancy McPhearson,New value,,New,Variety Cycling,Variety Cycling,New value,,New,New
+355,559,"559,00",New value,,New,Nkenge McLin,Nkenge McLin,New value,,New,Some Discount Store,Some Discount Store,New value,,New,New
+356,560,"560,00",New value,,New,Paul Alcorn,Paul Alcorn,New value,,New,Major Sport Suppliers,Major Sport Suppliers,New value,,New,New
+357,561,"561,00",New value,,New,Marvin Allen,Marvin Allen,New value,,New,Mountain Toy Store,Mountain Toy Store,New value,,New,New
+358,562,"562,00",New value,,New,Yvonne McKay,Yvonne McKay,New value,,New,Practical Bike Supply Company,Practical Bike Supply Company,New value,,New,New
+359,563,"563,00",New value,,New,Sean Jacobson,Sean Jacobson,New value,,New,Systematic Sales,Systematic Sales,New value,,New,New
+360,564,"564,00",New value,,New,Michelle Alexander,Michelle Alexander,New value,,New,Imported and Domestic Cycles,Imported and Domestic Cycles,New value,,New,New
+361,565,"565,00",New value,,New,Richard Bentley,Richard Bentley,New value,,New,Metallic Paint and Overcoat Co,Metallic Paint and Overcoat Co,New value,,New,New
+362,568,"568,00",New value,,New,Curtis Howard,Curtis Howard,New value,,New,Economy Center,Economy Center,New value,,New,New
+363,569,"569,00",New value,,New,Cecil Allison,Cecil Allison,New value,,New,Designated Distributors,Designated Distributors,New value,,New,New
+364,570,"570,00",New value,,New,Gregory Alderson,Gregory Alderson,New value,,New,Family's Favorite Bike Shop,Family's Favorite Bike Shop,New value,,New,New
+365,574,"574,00",New value,,New,Janice Hows,Janice Hows,New value,,New,Area Sheet Metal Supply,Area Sheet Metal Supply,New value,,New,New
+366,577,"577,00",New value,,New,George Huckaby,George Huckaby,New value,,New,Synthetic Materials Manufacturing,Synthetic Materials Manufacturing,New value,,New,New
+367,578,"578,00",New value,,New,Carolyn Farino,Carolyn Farino,New value,,New,The Bike Shop,The Bike Shop,New value,,New,New
+368,579,"579,00",New value,,New,Kim Abercrombie,Kim Abercrombie,New value,,New,Riders Company,Riders Company,New value,,New,New
+369,580,"580,00",New value,,New,Joshua Huff,Joshua Huff,New value,,New,Rural Sales and Service,Rural Sales and Service,New value,,New,New
+370,581,"581,00",New value,,New,Geri Farrell,Geri Farrell,New value,,New,Safe Toys,Safe Toys,New value,,New,New
+371,582,"582,00",New value,,New,Catherine Abel,Catherine Abel,New value,,New,Professional Sales and Service,Professional Sales and Service,New value,,New,New
+372,583,"583,00",New value,,New,Laura Steele,Laura Steele,New value,,New,Professional Containers and Packaging Co.,Professional Containers and Packaging Co.,New value,,New,New
+373,586,"586,00",New value,,New,Shanay Steelman,Shanay Steelman,New value,,New,One Bike Company,One Bike Company,New value,,New,New
+374,587,"587,00",New value,,New,Rhoda Finley,Rhoda Finley,New value,,New,Our Sporting Goods Store,Our Sporting Goods Store,New value,,New,New
+375,588,"588,00",New value,,New,Pat Chambers,Pat Chambers,New value,,New,General Cycle Storehouse,General Cycle Storehouse,New value,,New,New
+376,592,"592,00",New value,,New,Stefano Stefani,Stefano Stefani,New value,,New,Cycling Goods,Cycling Goods,New value,,New,New
+377,595,"595,00",New value,,New,Alan Steiner,Alan Steiner,New value,,New,Cycle Clearance,Cycle Clearance,New value,,New,New
+378,596,"596,00",New value,,New,Kathie Flood,Kathie Flood,New value,,New,Coho Sports,Coho Sports,New value,,New,New
+379,597,"597,00",New value,,New,Bob Hodges,Bob Hodges,New value,,New,All Seasons Sports Supply,All Seasons Sports Supply,New value,,New,New
+380,598,"598,00",New value,,New,Derik Stenerson,Derik Stenerson,New value,,New,Black Bicycle Company,Black Bicycle Company,New value,,New,New
+381,599,"599,00",New value,,New,Raul Casts,Raul Casts,New value,,New,Westside Plaza,Westside Plaza,New value,,New,New
+382,600,"600,00",New value,,New,Holly Holt,Holly Holt,New value,,New,Strenuous Exercise Shop,Strenuous Exercise Shop,New value,,New,New
+383,601,"601,00",New value,,New,Vassar Stern,Vassar Stern,New value,,New,Transport Bikes,Transport Bikes,New value,,New,New
+384,604,"604,00",New value,,New,Wathalee Steuber,Wathalee Steuber,New value,,New,Sellers of Cycles,Sellers of Cycles,New value,,New,New
+385,605,"605,00",New value,,New,Matthew Cavallari,Matthew Cavallari,New value,,New,Outstanding Cycles,Outstanding Cycles,New value,,New,New
+386,606,"606,00",New value,,New,Helge Hoeing,Helge Hoeing,New value,,New,Little Bicycle Supply Shop,Little Bicycle Supply Shop,New value,,New,New
+387,607,"607,00",New value,,New,Alice Steiner,Alice Steiner,New value,,New,Maintenance and Repair for Bicycles,Maintenance and Repair for Bicycles,New value,,New,New
+388,608,"608,00",New value,,New,Steven Brown,Steven Brown,New value,,New,Golf and Cycle Store,Golf and Cycle Store,New value,,New,New
+389,609,"609,00",New value,,New,David Hodgson,David Hodgson,New value,,New,Good Toys,Good Toys,New value,,New,New
+390,610,"610,00",New value,,New,Liza Marie Stevens,Liza Marie Stevens,New value,,New,Fitness Department Stores,Fitness Department Stores,New value,,New,New
+391,613,"613,00",New value,,New,Jim Stewart,Jim Stewart,New value,,New,Famous Bike Shop,Famous Bike Shop,New value,,New,New
+392,617,"617,00",New value,,New,Arlene Huff,Arlene Huff,New value,,New,Tubeless Tire Company,Tubeless Tire Company,New value,,New,New
+393,620,"620,00",New value,,New,Matthew Hunter,Matthew Hunter,New value,,New,Tires and Tubes,Tires and Tubes,New value,,New,New
+394,621,"621,00",New value,,New,Matthew Hink,Matthew Hink,New value,,New,Running and Cycling Gear,Running and Cycling Gear,New value,,New,New
+395,622,"622,00",New value,,New,Robert Stotka,Robert Stotka,New value,,New,Gift and Toy Store,Gift and Toy Store,New value,,New,New
+396,623,"623,00",New value,,New,Phyllis Huntsman,Phyllis Huntsman,New value,,New,Hardware Components,Hardware Components,New value,,New,New
+397,624,"624,00",New value,,New,Mike Hines,Mike Hines,New value,,New,First Cycle Store,First Cycle Store,New value,,New,New
+398,625,"625,00",New value,,New,Kayla Stotler,Kayla Stotler,New value,,New,Major Sporting Goods,Major Sporting Goods,New value,,New,New
+399,626,"626,00",New value,,New,Lawrence Hurkett,Lawrence Hurkett,New value,,New,Retail Sporting Goods,Retail Sporting Goods,New value,,New,New
+400,629,"629,00",New value,,New,Ryan Ihrig,Ryan Ihrig,New value,,New,Efficient Cycling,Efficient Cycling,New value,,New,New
+401,630,"630,00",New value,,New,Andrew Hill,Andrew Hill,New value,,New,Eastside Parts Shop,Eastside Parts Shop,New value,,New,New
+402,631,"631,00",New value,,New,Robert Lyeba,Robert Lyeba,New value,,New,Tandem Sales and Service,Tandem Sales and Service,New value,,New,New
+403,635,"635,00",New value,,New,Roger Van Houten,Roger Van Houten,New value,,New,Sports Store,Sports Store,New value,,New,New
+404,637,"637,00",New value,,New,Robert Lyon,Robert Lyon,New value,,New,Reliable Retail Center,Reliable Retail Center,New value,,New,New
+405,641,"641,00",New value,,New,Rose Vandenouer,Rose Vandenouer,New value,,New,Extended Tours,Extended Tours,New value,,New,New
+406,643,"643,00",New value,,New,Denise Maccietto,Denise Maccietto,New value,,New,Friendly Bike Shop,Friendly Bike Shop,New value,,New,New
+407,644,"644,00",New value,,New,Gregory Vanderbout,Gregory Vanderbout,New value,,New,Convenient Sales and Service,Convenient Sales and Service,New value,,New,New
+408,645,"645,00",New value,,New,Ronald Heymsfield,Ronald Heymsfield,New value,,New,Superior Hardware Distributors,Superior Hardware Distributors,New value,,New,New
+409,646,"646,00",New value,,New,Scott MacDonald,Scott MacDonald,New value,,New,Yellow Bicycle Company,Yellow Bicycle Company,New value,,New,New
+410,647,"647,00",New value,,New,Michael Vanderhyde,Michael Vanderhyde,New value,,New,Solid Bike Parts,Solid Bike Parts,New value,,New,New
+411,648,"648,00",New value,,New,Cheryl Herring,Cheryl Herring,New value,,New,Small Bike Shop,Small Bike Shop,New value,,New,New
+412,649,"649,00",New value,,New,Walter Mays,Walter Mays,New value,,New,Sports Products Store,Sports Products Store,New value,,New,New
+413,650,"650,00",New value,,New,Margaret Vanderkamp,Margaret Vanderkamp,New value,,New,Permanent Finish Products,Permanent Finish Products,New value,,New,New
+414,653,"653,00",New value,,New,Kara Vanderlinden,Kara Vanderlinden,New value,,New,Mercantile Outlet,Mercantile Outlet,New value,,New,New
+415,654,"654,00",New value,,New,Jésus Hernandez,Jésus Hernandez,New value,,New,Online Bike Warehouse,Online Bike Warehouse,New value,,New,New
+416,655,"655,00",New value,,New,Irene Hernandez,Irene Hernandez,New value,,New,Operational Manufacturing,Operational Manufacturing,New value,,New,New
+417,659,"659,00",New value,,New,Ajay Manchepalli,Ajay Manchepalli,New value,,New,Shipping Specialists,Shipping Specialists,New value,,New,New
+418,660,"660,00",New value,,New,Nieves Vargas,Nieves Vargas,New value,,New,Exhilarating Cycles,Exhilarating Cycles,New value,,New,New
+419,661,"661,00",New value,,New,Kari Hensien,Kari Hensien,New value,,New,General Department Stores,General Department Stores,New value,,New,New
+420,665,"665,00",New value,,New,Tomas Manzanares,Tomas Manzanares,New value,,New,Authentic Sales and Service,Authentic Sales and Service,New value,,New,New
+421,668,"668,00",New value,,New,Kathy Marcovecchio,Kathy Marcovecchio,New value,,New,Official Parts Shop,Official Parts Shop,New value,,New,New
+422,669,"669,00",New value,,New,Patricia Doyle,Patricia Doyle,New value,,New,Racing Bike Outlet,Racing Bike Outlet,New value,,New,New
+423,670,"670,00",New value,,New,Valerie Hendricks,Valerie Hendricks,New value,,New,First Bike Store,First Bike Store,New value,,New,New
+424,671,"671,00",New value,,New,Jill Markwood,Jill Markwood,New value,,New,"Contoso, Ltd.","Contoso, Ltd.",New value,,New,New
+425,672,"672,00",New value,,New,Gerald Drury,Gerald Drury,New value,,New,Utilitarian Sporting Goods,Utilitarian Sporting Goods,New value,,New,New
+426,673,"673,00",New value,,New,John Hanson,John Hanson,New value,,New,Countryside Company,Countryside Company,New value,,New,New
+427,674,"674,00",New value,,New,Melissa Marple,Melissa Marple,New value,,New,Discount Tours,Discount Tours,New value,,New,New
+428,677,"677,00",New value,,New,Cecelia Marshall,Cecelia Marshall,New value,,New,Tire Exchange,Tire Exchange,New value,,New,New
+429,678,"678,00",New value,,New,Reuben D'sa,Reuben D'sa,New value,,New,Vigorous Exercise Company,Vigorous Exercise Company,New value,,New,New
+430,679,"679,00",New value,,New,Brenda Heaney,Brenda Heaney,New value,,New,Superb Sales and Repair,Superb Sales and Repair,New value,,New,New
+431,683,"683,00",New value,,New,Linda Martin,Linda Martin,New value,,New,Oils and Fluids Warehouse,Oils and Fluids Warehouse,New value,,New,New
+432,685,"685,00",New value,,New,James Haugh,James Haugh,New value,,New,Family Cycle Store,Family Cycle Store,New value,,New,New
+433,689,"689,00",New value,,New,Sandra Martinez,Sandra Martinez,New value,,New,Consumer Equipment,Consumer Equipment,New value,,New,New
+434,692,"692,00",New value,,New,Bev Desalvo,Bev Desalvo,New value,,New,Successful Sales Company,Successful Sales Company,New value,,New,New
+435,693,"693,00",New value,,New,Bart Duncan,Bart Duncan,New value,,New,Stock Parts and Supplies,Stock Parts and Supplies,New value,,New,New
+436,694,"694,00",New value,,New,Ann Hass,Ann Hass,New value,,New,The Accessories Store,The Accessories Store,New value,,New,New
+437,695,"695,00",New value,,New,Rob Caron,Rob Caron,New value,,New,Responsible Bike Dealers,Responsible Bike Dealers,New value,,New,New
+438,696,"696,00",New value,,New,Maciej Dusza,Maciej Dusza,New value,,New,Roadway Supplies,Roadway Supplies,New value,,New,New
+439,697,"697,00",New value,,New,Roger Harui,Roger Harui,New value,,New,Brakes and Gears,Brakes and Gears,New value,,New,New
+440,698,"698,00",New value,,New,Andy Carothers,Andy Carothers,New value,,New,Western Bike Supplies,Western Bike Supplies,New value,,New,New
+441,701,"701,00",New value,,New,Linda Ecoffey,Linda Ecoffey,New value,,New,Future Bikes,Future Bikes,New value,,New,New
+442,29485,"29485,00",New value,,New,Catherine Abel,Catherine Abel,New value,,New,Professional Sales and Service,Professional Sales and Service,New value,,New,New
+443,29486,"29486,00",New value,,New,Kim Abercrombie,Kim Abercrombie,New value,,New,Riders Company,Riders Company,New value,,New,New
+444,29489,"29489,00",New value,,New,Frances Adams,Frances Adams,New value,,New,Area Bike Accessories,Area Bike Accessories,New value,,New,New
+445,29490,"29490,00",New value,,New,Margaret Smith,Margaret Smith,New value,,New,Bicycle Accessories and Kits,Bicycle Accessories and Kits,New value,,New,New
+446,29492,"29492,00",New value,,New,Jay Adams,Jay Adams,New value,,New,Valley Bicycle Specialists,Valley Bicycle Specialists,New value,,New,New
+447,29494,"29494,00",New value,,New,Samuel Agcaoili,Samuel Agcaoili,New value,,New,Vinyl and Plastic Goods Corporation,Vinyl and Plastic Goods Corporation,New value,,New,New
+448,29496,"29496,00",New value,,New,Robert Ahlering,Robert Ahlering,New value,,New,Fun Toys and Bikes,Fun Toys and Bikes,New value,,New,New
+449,29497,"29497,00",New value,,New,François Ferrier,François Ferrier,New value,,New,Great Bikes,Great Bikes,New value,,New,New
+450,29499,"29499,00",New value,,New,Amy Alberts,Amy Alberts,New value,,New,Valley Toy Store,Valley Toy Store,New value,,New,New
+451,29502,"29502,00",New value,,New,Paul Alcorn,Paul Alcorn,New value,,New,Major Sport Suppliers,Major Sport Suppliers,New value,,New,New
+452,29503,"29503,00",New value,,New,Gregory Alderson,Gregory Alderson,New value,,New,Family's Favorite Bike Shop,Family's Favorite Bike Shop,New value,,New,New
+453,29505,"29505,00",New value,,New,Michelle Alexander,Michelle Alexander,New value,,New,Imported and Domestic Cycles,Imported and Domestic Cycles,New value,,New,New
+454,29506,"29506,00",New value,,New,Sean Jacobson,Sean Jacobson,New value,,New,Systematic Sales,Systematic Sales,New value,,New,New
+455,29508,"29508,00",New value,,New,Marvin Allen,Marvin Allen,New value,,New,Mountain Toy Store,Mountain Toy Store,New value,,New,New
+456,29510,"29510,00",New value,,New,Cecil Allison,Cecil Allison,New value,,New,Designated Distributors,Designated Distributors,New value,,New,New
+457,29511,"29511,00",New value,,New,Oscar Alpuerto,Oscar Alpuerto,New value,,New,Bold Bike Accessories,Bold Bike Accessories,New value,,New,New
+458,29515,"29515,00",New value,,New,Maxwell Amland,Maxwell Amland,New value,,New,Serious Cycles,Serious Cycles,New value,,New,New
+459,29517,"29517,00",New value,,New,Ramona Antrim,Ramona Antrim,New value,,New,Novelty Bikes,Novelty Bikes,New value,,New,New
+460,29521,"29521,00",New value,,New,Tom Johnston,Tom Johnston,New value,,New,Brightwork Company,Brightwork Company,New value,,New,New
+461,29522,"29522,00",New value,,New,Thomas Armstrong,Thomas Armstrong,New value,,New,Resale Services,Resale Services,New value,,New,New
+462,29523,"29523,00",New value,,New,John Arthur,John Arthur,New value,,New,The Gear Store,The Gear Store,New value,,New,New
+463,29524,"29524,00",New value,,New,Chris Ashton,Chris Ashton,New value,,New,Immense Manufacturing Company,Immense Manufacturing Company,New value,,New,New
+464,29525,"29525,00",New value,,New,Teresa Atkinson,Teresa Atkinson,New value,,New,Extended Bike Sales,Extended Bike Sales,New value,,New,New
+465,29527,"29527,00",New value,,New,Robert Avalos,Robert Avalos,New value,,New,Workout Emporium,Workout Emporium,New value,,New,New
+466,29528,"29528,00",New value,,New,Stephen Ayers,Stephen Ayers,New value,,New,Work and Play Association,Work and Play Association,New value,,New,New
+467,29530,"29530,00",New value,,New,Daniel Blanco,Daniel Blanco,New value,,New,Nice Bikes,Nice Bikes,New value,,New,New
+468,29531,"29531,00",New value,,New,Cory Booth,Cory Booth,New value,,New,Remarkable Bike Store,Remarkable Bike Store,New value,,New,New
+469,29532,"29532,00",New value,,New,James Bailey,James Bailey,New value,,New,Road-Way Mart,Road-Way Mart,New value,,New,New
+470,29533,"29533,00",New value,,New,Douglas Baldwin,Douglas Baldwin,New value,,New,Small Cycle Store,Small Cycle Store,New value,,New,New
+471,29535,"29535,00",New value,,New,Wayne Banack,Wayne Banack,New value,,New,Grand Bicycle Stores,Grand Bicycle Stores,New value,,New,New
+472,29536,"29536,00",New value,,New,Robert Barker,Robert Barker,New value,,New,Kickstand Sellers,Kickstand Sellers,New value,,New,New
+473,29539,"29539,00",New value,,New,Josh Barnhill,Josh Barnhill,New value,,New,Gasless Cycle Shop,Gasless Cycle Shop,New value,,New,New
+474,29541,"29541,00",New value,,New,Gytis Barzdukas,Gytis Barzdukas,New value,,New,Transportation Options,Transportation Options,New value,,New,New
+475,29544,"29544,00",New value,,New,Shaun Beasley,Shaun Beasley,New value,,New,Finer Cycle Shop,Finer Cycle Shop,New value,,New,New
+476,29545,"29545,00",New value,,New,John Beaver,John Beaver,New value,,New,Center Cycle Shop,Center Cycle Shop,New value,,New,New
+477,29546,"29546,00",New value,,New,Christopher Beck,Christopher Beck,New value,,New,Bulk Discount Store,Bulk Discount Store,New value,,New,New
+478,29548,"29548,00",New value,,New,Ann Beebe,Ann Beebe,New value,,New,First-Rate Outlet,First-Rate Outlet,New value,,New,New
+479,29550,"29550,00",New value,,New,Stanley Alan,Stanley Alan,New value,,New,Another Bicycle Company,Another Bicycle Company,New value,,New,New
+480,29553,"29553,00",New value,,New,Edna Benson,Edna Benson,New value,,New,Unsurpassed Bikes,Unsurpassed Bikes,New value,,New,New
+481,29554,"29554,00",New value,,New,Payton Benson,Payton Benson,New value,,New,Field Trip Inc,Field Trip Inc,New value,,New,New
+482,29557,"29557,00",New value,,New,Alexander Berger,Alexander Berger,New value,,New,Odometers and Accessories Company,Odometers and Accessories Company,New value,,New,New
+483,29558,"29558,00",New value,,New,John Berger,John Berger,New value,,New,Scratch-Resistant Finishes Company,Scratch-Resistant Finishes Company,New value,,New,New
+484,29559,"29559,00",New value,,New,Robert Bernacchi,Robert Bernacchi,New value,,New,Safe Cycles Shop,Safe Cycles Shop,New value,,New,New
+485,29560,"29560,00",New value,,New,Matthias Berndt,Matthias Berndt,New value,,New,Number 1 Supply,Number 1 Supply,New value,,New,New
+486,29562,"29562,00",New value,,New,Steven Brown,Steven Brown,New value,,New,Golf and Cycle Store,Golf and Cycle Store,New value,,New,New
+487,29565,"29565,00",New value,,New,Jimmy Bischoff,Jimmy Bischoff,New value,,New,World Bike Discount Store,World Bike Discount Store,New value,,New,New
+488,29566,"29566,00",New value,,New,Mae Black,Mae Black,New value,,New,Historic Bicycle Sales,Historic Bicycle Sales,New value,,New,New
+489,29567,"29567,00",New value,,New,Jackie Blackwell,Jackie Blackwell,New value,,New,Commuter Bicycle Store,Commuter Bicycle Store,New value,,New,New
+490,29568,"29568,00",New value,,New,Donald Blanton,Donald Blanton,New value,,New,Coalition Bike Company,Coalition Bike Company,New value,,New,New
+491,29569,"29569,00",New value,,New,Linda Burnett,Linda Burnett,New value,,New,Travel Systems,Travel Systems,New value,,New,New
+492,29570,"29570,00",New value,,New,Michael Blythe,Michael Blythe,New value,,New,Grease and Oil Products Company,Grease and Oil Products Company,New value,,New,New
+493,29571,"29571,00",New value,,New,Gabriel Bockenkamp,Gabriel Bockenkamp,New value,,New,Moderately-Priced Bikes Store,Moderately-Priced Bikes Store,New value,,New,New
+494,29573,"29573,00",New value,,New,Luis Bonifaz,Luis Bonifaz,New value,,New,Economy Bikes Company,Economy Bikes Company,New value,,New,New
+495,29574,"29574,00",New value,,New,Randall Boseman,Randall Boseman,New value,,New,Third Bike Store,Third Bike Store,New value,,New,New
+496,29576,"29576,00",New value,,New,Eli Bowen,Eli Bowen,New value,,New,Bikes for Two,Bikes for Two,New value,,New,New
+497,29577,"29577,00",New value,,New,Lester Bowman,Lester Bowman,New value,,New,Metal Processing Company,Metal Processing Company,New value,,New,New
+498,29579,"29579,00",New value,,New,Cornelius Brandon,Cornelius Brandon,New value,,New,Initial Bike Company,Initial Bike Company,New value,,New,New
+499,29580,"29580,00",New value,,New,Richard Bready,Richard Bready,New value,,New,Latest Sports Equipment,Latest Sports Equipment,New value,,New,New
+500,29582,"29582,00",New value,,New,Ted Bremer,Ted Bremer,New value,,New,Raw Materials Inc,Raw Materials Inc,New value,,New,New
+501,29583,"29583,00",New value,,New,Alan Brewer,Alan Brewer,New value,,New,Lots of Bikes Storehouse,Lots of Bikes Storehouse,New value,,New,New
+502,29584,"29584,00",New value,,New,Walter Brian,Walter Brian,New value,,New,Futuristic Bikes,Futuristic Bikes,New value,,New,New
+503,29585,"29585,00",New value,,New,Christopher Bright,Christopher Bright,New value,,New,Parcel Express Delivery Service,Parcel Express Delivery Service,New value,,New,New
+504,29587,"29587,00",New value,,New,John Brooks,John Brooks,New value,,New,Prosperous Tours,Prosperous Tours,New value,,New,New
+505,29588,"29588,00",New value,,New,Willie Brooks,Willie Brooks,New value,,New,Nonskid Tire Company,Nonskid Tire Company,New value,,New,New
+506,29590,"29590,00",New value,,New,Jo Brown,Jo Brown,New value,,New,Metro Bike Works,Metro Bike Works,New value,,New,New
+507,29591,"29591,00",New value,,New,Robert Brown,Robert Brown,New value,,New,Best o' Bikes,Best o' Bikes,New value,,New,New
+508,29593,"29593,00",New value,,New,Mary Browning,Mary Browning,New value,,New,Client Discount Store,Client Discount Store,New value,,New,New
+509,29596,"29596,00",New value,,New,Eric Brumfield,Eric Brumfield,New value,,New,Requisite Part Supply,Requisite Part Supply,New value,,New,New
+510,29598,"29598,00",New value,,New,Michael Brundage,Michael Brundage,New value,,New,Mechanical Products Ltd.,Mechanical Products Ltd.,New value,,New,New
+511,29599,"29599,00",New value,,New,Shirley Bruner,Shirley Bruner,New value,,New,Commendable Bikes,Commendable Bikes,New value,,New,New
+512,29600,"29600,00",New value,,New,June Brunner,June Brunner,New value,,New,Online Bike Sellers,Online Bike Sellers,New value,,New,New
+513,29601,"29601,00",New value,,New,Dirk Bruno,Dirk Bruno,New value,,New,Custom Accessories Company,Custom Accessories Company,New value,,New,New
+514,29603,"29603,00",New value,,New,Janaina Barreiro Gambaro Bueno,Janaina Barreiro Gambaro Bueno,New value,,New,Courteous Bicycle Specialists,Courteous Bicycle Specialists,New value,,New,New
+515,29605,"29605,00",New value,,New,Megan Burke,Megan Burke,New value,,New,Professional Cycle Store,Professional Cycle Store,New value,,New,New
+516,29606,"29606,00",New value,,New,Karren Burkhardt,Karren Burkhardt,New value,,New,Fifth Bike Store,Fifth Bike Store,New value,,New,New
+517,29608,"29608,00",New value,,New,Timothy Burnett,Timothy Burnett,New value,,New,Farthest Bike Store,Farthest Bike Store,New value,,New,New
+518,29611,"29611,00",New value,,New,Jared Bustamante,Jared Bustamante,New value,,New,Alternative Vehicles,Alternative Vehicles,New value,,New,New
+519,29612,"29612,00",New value,,New,Richard Byham,Richard Byham,New value,,New,Channel Outlet,Channel Outlet,New value,,New,New
+520,29614,"29614,00",New value,,New,Ryan Calafato,Ryan Calafato,New value,,New,Retail Mall,Retail Mall,New value,,New,New
+521,29615,"29615,00",New value,,New,Mari Caldwell,Mari Caldwell,New value,,New,Metro Metals Co.,Metro Metals Co.,New value,,New,New
+522,29616,"29616,00",New value,,New,Barbara Calone,Barbara Calone,New value,,New,Sheet Metal Manufacturing,Sheet Metal Manufacturing,New value,,New,New
+523,29617,"29617,00",New value,,New,Lindsey Camacho,Lindsey Camacho,New value,,New,Thorough Parts and Repair Services,Thorough Parts and Repair Services,New value,,New,New
+524,29618,"29618,00",New value,,New,Gustavo Camargo,Gustavo Camargo,New value,,New,Uttermost Bike Shop,Uttermost Bike Shop,New value,,New,New
+525,29620,"29620,00",New value,,New,Joan Campbell,Joan Campbell,New value,,New,Two-Wheeled Transit Company,Two-Wheeled Transit Company,New value,,New,New
+526,29622,"29622,00",New value,,New,Henry Campen,Henry Campen,New value,,New,Metro Cycle Shop,Metro Cycle Shop,New value,,New,New
+527,29623,"29623,00",New value,,New,Chris Cannon,Chris Cannon,New value,,New,Outdoor Sporting Goods,Outdoor Sporting Goods,New value,,New,New
+528,29625,"29625,00",New value,,New,Suzana De Abreu Canuto,Suzana De Abreu Canuto,New value,,New,Petroleum Products Distributors,Petroleum Products Distributors,New value,,New,New
+529,29627,"29627,00",New value,,New,Johnny Caprio,Johnny Caprio,New value,,New,Bikes and Motorbikes,Bikes and Motorbikes,New value,,New,New
+530,29629,"29629,00",New value,,New,Carlton Carlisle,Carlton Carlisle,New value,,New,Camping and Sports Store,Camping and Sports Store,New value,,New,New
+531,29631,"29631,00",New value,,New,Jane Carmichael,Jane Carmichael,New value,,New,Rural Department Store,Rural Department Store,New value,,New,New
+532,29632,"29632,00",New value,,New,Jovita Carmody,Jovita Carmody,New value,,New,Sports Commodities,Sports Commodities,New value,,New,New
+533,29635,"29635,00",New value,,New,Rob Caron,Rob Caron,New value,,New,Responsible Bike Dealers,Responsible Bike Dealers,New value,,New,New
+534,29636,"29636,00",New value,,New,Andy Carothers,Andy Carothers,New value,,New,Western Bike Supplies,Western Bike Supplies,New value,,New,New
+535,29637,"29637,00",New value,,New,Donna Carreras,Donna Carreras,New value,,New,Advanced Bike Components,Advanced Bike Components,New value,,New,New
+536,29638,"29638,00",New value,,New,Rosmarie Carroll,Rosmarie Carroll,New value,,New,Aerobic Exercise Company,Aerobic Exercise Company,New value,,New,New
+537,29639,"29639,00",New value,,New,Joseph Castellucio,Joseph Castellucio,New value,,New,Corner Bicycle Supply,Corner Bicycle Supply,New value,,New,New
+538,29641,"29641,00",New value,,New,Raul Casts,Raul Casts,New value,,New,Westside Plaza,Westside Plaza,New value,,New,New
+539,29643,"29643,00",New value,,New,Matthew Cavallari,Matthew Cavallari,New value,,New,Outstanding Cycles,Outstanding Cycles,New value,,New,New
+540,29644,"29644,00",New value,,New,Brigid Cavendish,Brigid Cavendish,New value,,New,Vigorous Sports Store,Vigorous Sports Store,New value,,New,New
+541,29645,"29645,00",New value,,New,Andrew Cencini,Andrew Cencini,New value,,New,Sports Merchandise,Sports Merchandise,New value,,New,New
+542,29646,"29646,00",New value,,New,Stacey Cereghino,Stacey Cereghino,New value,,New,Fitness Toy Store,Fitness Toy Store,New value,,New,New
+543,29649,"29649,00",New value,,New,Pat Chambers,Pat Chambers,New value,,New,General Cycle Storehouse,General Cycle Storehouse,New value,,New,New
+544,29650,"29650,00",New value,,New,Forrest Chandler,Forrest Chandler,New value,,New,Fitness Cycling,Fitness Cycling,New value,,New,New
+545,29651,"29651,00",New value,,New,Lee Chapla,Lee Chapla,New value,,New,Good Bike Shop,Good Bike Shop,New value,,New,New
+546,29653,"29653,00",New value,,New,Pei Chow,Pei Chow,New value,,New,Thrilling Bike Tours,Thrilling Bike Tours,New value,,New,New
+547,29654,"29654,00",New value,,New,Yao-Qiang Cheng,Yao-Qiang Cheng,New value,,New,This Area Sporting Goods,This Area Sporting Goods,New value,,New,New
+548,29655,"29655,00",New value,,New,Nicky Chesnut,Nicky Chesnut,New value,,New,Full-Service Bike Store,Full-Service Bike Store,New value,,New,New
+549,29659,"29659,00",New value,,New,Ruth Choin,Ruth Choin,New value,,New,Genuine Bike Shop,Genuine Bike Shop,New value,,New,New
+550,29660,"29660,00",New value,,New,Anthony Chor,Anthony Chor,New value,,New,Extreme Riding Supplies,Extreme Riding Supplies,New value,,New,New
+551,29662,"29662,00",New value,,New,Jill Christie,Jill Christie,New value,,New,Fleet Bikes,Fleet Bikes,New value,,New,New
+552,29663,"29663,00",New value,,New,Alice Clark,Alice Clark,New value,,New,Local Hardware Factory,Local Hardware Factory,New value,,New,New
+553,29666,"29666,00",New value,,New,Jane Clayton,Jane Clayton,New value,,New,South Bike Company,South Bike Company,New value,,New,New
+554,29668,"29668,00",New value,,New,Connie Coffman,Connie Coffman,New value,,New,Discount Bicycle Specialists,Discount Bicycle Specialists,New value,,New,New
+555,29671,"29671,00",New value,,New,Pat Coleman,Pat Coleman,New value,,New,Machines & Cycles Store,Machines & Cycles Store,New value,,New,New
+556,29673,"29673,00",New value,,New,John Colon,John Colon,New value,,New,Two Wheels Cycle Store,Two Wheels Cycle Store,New value,,New,New
+557,29674,"29674,00",New value,,New,Scott Colvin,Scott Colvin,New value,,New,Westside Cycle Store,Westside Cycle Store,New value,,New,New
+558,29677,"29677,00",New value,,New,William Conner,William Conner,New value,,New,Urban Sports Emporium,Urban Sports Emporium,New value,,New,New
+559,29680,"29680,00",New value,,New,Dorothy Contreras,Dorothy Contreras,New value,,New,Sixth Bike Store,Sixth Bike Store,New value,,New,New
+560,29682,"29682,00",New value,,New,Scott Cooper,Scott Cooper,New value,,New,Vehicle Shop,Vehicle Shop,New value,,New,New
+561,29683,"29683,00",New value,,New,Eva Corets,Eva Corets,New value,,New,First Department Stores,First Department Stores,New value,,New,New
+562,29684,"29684,00",New value,,New,Marlin Coriell,Marlin Coriell,New value,,New,Grand Sport Boutique,Grand Sport Boutique,New value,,New,New
+563,29686,"29686,00",New value,,New,Jack Creasey,Jack Creasey,New value,,New,Distinctive Store,Distinctive Store,New value,,New,New
+564,29688,"29688,00",New value,,New,Grant Culbertson,Grant Culbertson,New value,,New,Handy Bike Services,Handy Bike Services,New value,,New,New
+565,29689,"29689,00",New value,,New,Scott Culp,Scott Culp,New value,,New,Friendly Bike Shop,Friendly Bike Shop,New value,,New,New
+566,29690,"29690,00",New value,,New,Conor Cunningham,Conor Cunningham,New value,,New,Fashionable Bikes and Accessories,Fashionable Bikes and Accessories,New value,,New,New
+567,29692,"29692,00",New value,,New,Thierry D'Hers,Thierry D'Hers,New value,,New,Citywide Service and Repair,Citywide Service and Repair,New value,,New,New
+568,29695,"29695,00",New value,,New,Megan Davis,Megan Davis,New value,,New,Rugged Bikes,Rugged Bikes,New value,,New,New
+569,29696,"29696,00",New value,,New,Alvaro De Matos Miranda Filho,Alvaro De Matos Miranda Filho,New value,,New,Principal Bike Company,Principal Bike Company,New value,,New,New
+570,29698,"29698,00",New value,,New,Jacob Dean,Jacob Dean,New value,,New,Finer Riding Supplies,Finer Riding Supplies,New value,,New,New
+571,29699,"29699,00",New value,,New,Alexander Deborde,Alexander Deborde,New value,,New,Neighborhood Store,Neighborhood Store,New value,,New,New
+572,29702,"29702,00",New value,,New,Aidan Delaney,Aidan Delaney,New value,,New,Paint Supply,Paint Supply,New value,,New,New
+573,29703,"29703,00",New value,,New,Stefan Delmarco,Stefan Delmarco,New value,,New,Preferred Bikes,Preferred Bikes,New value,,New,New
+574,29705,"29705,00",New value,,New,Della Demott Jr,Della Demott Jr,New value,,New,Rewarding Activities Company,Rewarding Activities Company,New value,,New,New
+575,29708,"29708,00",New value,,New,Prashanth Desai,Prashanth Desai,New value,,New,Stationary Bikes and Stands,Stationary Bikes and Stands,New value,,New,New
+576,29709,"29709,00",New value,,New,Bev Desalvo,Bev Desalvo,New value,,New,Successful Sales Company,Successful Sales Company,New value,,New,New
+577,29710,"29710,00",New value,,New,Brenda Diaz,Brenda Diaz,New value,,New,Downtown Hotel,Downtown Hotel,New value,,New,New
+578,29711,"29711,00",New value,,New,Gabriele Dickmann,Gabriele Dickmann,New value,,New,Certified Sports Supply,Certified Sports Supply,New value,,New,New
+579,29713,"29713,00",New value,,New,Dick Dievendorff,Dick Dievendorff,New value,,New,Rampart Amusement Company,Rampart Amusement Company,New value,,New,New
+580,29714,"29714,00",New value,,New,Rudolph Dillon,Rudolph Dillon,New value,,New,Sundry Sporting Goods,Sundry Sporting Goods,New value,,New,New
+581,29716,"29716,00",New value,,New,Blaine Dockter,Blaine Dockter,New value,,New,Farthermost Bike Shop,Farthermost Bike Shop,New value,,New,New
+582,29717,"29717,00",New value,,New,Cindy Dodd,Cindy Dodd,New value,,New,Suburban Cycle Shop,Suburban Cycle Shop,New value,,New,New
+583,29719,"29719,00",New value,,New,Patricia Doyle,Patricia Doyle,New value,,New,Racing Bike Outlet,Racing Bike Outlet,New value,,New,New
+584,29720,"29720,00",New value,,New,Gerald Drury,Gerald Drury,New value,,New,Utilitarian Sporting Goods,Utilitarian Sporting Goods,New value,,New,New
+585,29722,"29722,00",New value,,New,Reuben D'sa,Reuben D'sa,New value,,New,Vigorous Exercise Company,Vigorous Exercise Company,New value,,New,New
+586,29727,"29727,00",New value,,New,Bart Duncan,Bart Duncan,New value,,New,Stock Parts and Supplies,Stock Parts and Supplies,New value,,New,New
+587,29728,"29728,00",New value,,New,Maciej Dusza,Maciej Dusza,New value,,New,Roadway Supplies,Roadway Supplies,New value,,New,New
+588,29730,"29730,00",New value,,New,Linda Ecoffey,Linda Ecoffey,New value,,New,Future Bikes,Future Bikes,New value,,New,New
+589,29732,"29732,00",New value,,New,Carol Elliott,Carol Elliott,New value,,New,Satin Finish Company,Satin Finish Company,New value,,New,New
+590,29733,"29733,00",New value,,New,Shannon Elliott,Shannon Elliott,New value,,New,Regional Manufacturing,Regional Manufacturing,New value,,New,New
+591,29734,"29734,00",New value,,New,Jauna Elson,Jauna Elson,New value,,New,Original Bicycle Supply Company,Original Bicycle Supply Company,New value,,New,New
+592,29736,"29736,00",New value,,New,Terry Eminhizer,Terry Eminhizer,New value,,New,Action Bicycle Specialists,Action Bicycle Specialists,New value,,New,New
+593,29737,"29737,00",New value,,New,John Emory,John Emory,New value,,New,Roadway Bike Emporium,Roadway Bike Emporium,New value,,New,New
+594,29738,"29738,00",New value,,New,Gail Erickson,Gail Erickson,New value,,New,Sleek Bikes,Sleek Bikes,New value,,New,New
+595,29739,"29739,00",New value,,New,Mark Erickson,Mark Erickson,New value,,New,Retail Sporting Equipment,Retail Sporting Equipment,New value,,New,New
+596,29740,"29740,00",New value,,New,Martha Espinoza,Martha Espinoza,New value,,New,Price-Cutter Discount Bikes,Price-Cutter Discount Bikes,New value,,New,New
+597,29741,"29741,00",New value,,New,Janeth Esteves,Janeth Esteves,New value,,New,Central Bicycle Specialists,Central Bicycle Specialists,New value,,New,New
+598,29742,"29742,00",New value,,New,Twanna Evans,Twanna Evans,New value,,New,Vast Bike Sales and Rental,Vast Bike Sales and Rental,New value,,New,New
+599,29743,"29743,00",New value,,New,Ann Evans,Ann Evans,New value,,New,Summer Sports Place,Summer Sports Place,New value,,New,New
+600,29744,"29744,00",New value,,New,John Evans,John Evans,New value,,New,Real Sporting Goods,Real Sporting Goods,New value,,New,New
+601,29747,"29747,00",New value,,New,Carolyn Farino,Carolyn Farino,New value,,New,The Bike Shop,The Bike Shop,New value,,New,New
+602,29748,"29748,00",New value,,New,Geri Farrell,Geri Farrell,New value,,New,Safe Toys,Safe Toys,New value,,New,New
+603,29750,"29750,00",New value,,New,Rhoda Finley,Rhoda Finley,New value,,New,Our Sporting Goods Store,Our Sporting Goods Store,New value,,New,New
+604,29753,"29753,00",New value,,New,Kathie Flood,Kathie Flood,New value,,New,Coho Sports,Coho Sports,New value,,New,New
+605,29755,"29755,00",New value,,New,Kelly Focht,Kelly Focht,New value,,New,Quick Delivery Service,Quick Delivery Service,New value,,New,New
+606,29757,"29757,00",New value,,New,Garth Fort,Garth Fort,New value,,New,Basic Sports Equipment,Basic Sports Equipment,New value,,New,New
+607,29758,"29758,00",New value,,New,Dorothy Fox,Dorothy Fox,New value,,New,Cash & Carry Bikes,Cash & Carry Bikes,New value,,New,New
+608,29761,"29761,00",New value,,New,Susan French,Susan French,New value,,New,General Bike Corporation,General Bike Corporation,New value,,New,New
+609,29763,"29763,00",New value,,New,Mihail Frintu,Mihail Frintu,New value,,New,Retail Cycle Shop,Retail Cycle Shop,New value,,New,New
+610,29764,"29764,00",New value,,New,John Ford,John Ford,New value,,New,Social Activities Club,Social Activities Club,New value,,New,New
+611,29765,"29765,00",New value,,New,Paul Fulton,Paul Fulton,New value,,New,Blue Bicycle Company,Blue Bicycle Company,New value,,New,New
+612,29766,"29766,00",New value,,New,Bob Gage,Bob Gage,New value,,New,General Riding Supplies,General Riding Supplies,New value,,New,New
+613,29768,"29768,00",New value,,New,Michael Galos,Michael Galos,New value,,New,Riding Excursions,Riding Excursions,New value,,New,New
+614,29769,"29769,00",New value,,New,Jon Ganio,Jon Ganio,New value,,New,Unique Bikes,Unique Bikes,New value,,New,New
+615,29770,"29770,00",New value,,New,Kathleen Garza,Kathleen Garza,New value,,New,Rural Cycle Emporium,Rural Cycle Emporium,New value,,New,New
+616,29771,"29771,00",New value,,New,Dominic Gash,Dominic Gash,New value,,New,Associated Bikes,Associated Bikes,New value,,New,New
+617,29772,"29772,00",New value,,New,Janet Gates,Janet Gates,New value,,New,Modular Cycle Systems,Modular Cycle Systems,New value,,New,New
+618,29773,"29773,00",New value,,New,Orlando Gee,Orlando Gee,New value,,New,A Bike Store,A Bike Store,New value,,New,New
+619,29774,"29774,00",New value,,New,Darren Gehring,Darren Gehring,New value,,New,Journey Sporting Goods,Journey Sporting Goods,New value,,New,New
+620,29775,"29775,00",New value,,New,Jim Geist,Jim Geist,New value,,New,Two Bike Shops,Two Bike Shops,New value,,New,New
+621,29776,"29776,00",New value,,New,Barbara German,Barbara German,New value,,New,Cycles Wholesaler & Mfg.,Cycles Wholesaler & Mfg.,New value,,New,New
+622,29778,"29778,00",New value,,New,Leo Giakoumakis,Leo Giakoumakis,New value,,New,Number One Bike Co.,Number One Bike Co.,New value,,New,New
+623,29780,"29780,00",New value,,New,Frances Giglio,Frances Giglio,New value,,New,Standard Bikes,Standard Bikes,New value,,New,New
+624,29781,"29781,00",New value,,New,Guy Gilbert,Guy Gilbert,New value,,New,The Bicycle Accessories Company,The Bicycle Accessories Company,New value,,New,New
+625,29782,"29782,00",New value,,New,Janet Gilliat,Janet Gilliat,New value,,New,Active Systems,Active Systems,New value,,New,New
+626,29783,"29783,00",New value,,New,Mary Gimmi,Mary Gimmi,New value,,New,Futuristic Sport Distributors,Futuristic Sport Distributors,New value,,New,New
+627,29784,"29784,00",New value,,New,Jeanie Glenn,Jeanie Glenn,New value,,New,Big-Time Bike Store,Big-Time Bike Store,New value,,New,New
+628,29785,"29785,00",New value,,New,Diane Glimp,Diane Glimp,New value,,New,The Showroom,The Showroom,New value,,New,New
+629,29787,"29787,00",New value,,New,Scott Gode,Scott Gode,New value,,New,Year-Round Sports,Year-Round Sports,New value,,New,New
+630,29788,"29788,00",New value,,New,Mete Goktepe,Mete Goktepe,New value,,New,The New Bike Store,The New Bike Store,New value,,New,New
+631,29789,"29789,00",New value,,New,Brian Goldstein,Brian Goldstein,New value,,New,Primary Bike Distributors,Primary Bike Distributors,New value,,New,New
+632,29792,"29792,00",New value,,New,Abigail Gonzalez,Abigail Gonzalez,New value,,New,Genial Bike Associates,Genial Bike Associates,New value,,New,New
+633,29793,"29793,00",New value,,New,Michael Graff,Michael Graff,New value,,New,Commercial Sporting Goods,Commercial Sporting Goods,New value,,New,New
+634,29794,"29794,00",New value,,New,Derek Graham,Derek Graham,New value,,New,Wholesale Parts,Wholesale Parts,New value,,New,New
+635,29796,"29796,00",New value,,New,Jon Grande,Jon Grande,New value,,New,Riding Cycles,Riding Cycles,New value,,New,New
+636,29797,"29797,00",New value,,New,Jane Greer,Jane Greer,New value,,New,Metro Manufacturing,Metro Manufacturing,New value,,New,New
+637,29799,"29799,00",New value,,New,Douglas Groncki,Douglas Groncki,New value,,New,Locks Company,Locks Company,New value,,New,New
+638,29800,"29800,00",New value,,New,Brian Groth,Brian Groth,New value,,New,Latest Accessories Sales,Latest Accessories Sales,New value,,New,New
+639,29803,"29803,00",New value,,New,Hattie Haemon,Hattie Haemon,New value,,New,Greater Bike Store,Greater Bike Store,New value,,New,New
+640,29805,"29805,00",New value,,New,Erin Hagens,Erin Hagens,New value,,New,Distant Inn,Distant Inn,New value,,New,New
+641,29806,"29806,00",New value,,New,Betty Haines,Betty Haines,New value,,New,Finer Mart,Finer Mart,New value,,New,New
+642,29807,"29807,00",New value,,New,Bryan Hamilton,Bryan Hamilton,New value,,New,Cross-Country Riding Supplies,Cross-Country Riding Supplies,New value,,New,New
+643,29809,"29809,00",New value,,New,Kerim Hanif,Kerim Hanif,New value,,New,Bike World,Bike World,New value,,New,New
+644,29810,"29810,00",New value,,New,Jean Handley,Jean Handley,New value,,New,Central Discount Store,Central Discount Store,New value,,New,New
+645,29813,"29813,00",New value,,New,Katherine Harding,Katherine Harding,New value,,New,Sharp Bikes,Sharp Bikes,New value,,New,New
+646,29815,"29815,00",New value,,New,Lucy Harrington,Lucy Harrington,New value,,New,Metropolitan Sports Supply,Metropolitan Sports Supply,New value,,New,New
+647,29816,"29816,00",New value,,New,Keith Harris,Keith Harris,New value,,New,Progressive Sports,Progressive Sports,New value,,New,New
+648,29818,"29818,00",New value,,New,Roger Harui,Roger Harui,New value,,New,Brakes and Gears,Brakes and Gears,New value,,New,New
+649,29819,"29819,00",New value,,New,Ann Hass,Ann Hass,New value,,New,The Accessories Store,The Accessories Store,New value,,New,New
+650,29822,"29822,00",New value,,New,James Haugh,James Haugh,New value,,New,Family Cycle Store,Family Cycle Store,New value,,New,New
+651,29824,"29824,00",New value,,New,Brenda Heaney,Brenda Heaney,New value,,New,Superb Sales and Repair,Superb Sales and Repair,New value,,New,New
+652,29826,"29826,00",New value,,New,John Hanson,John Hanson,New value,,New,Countryside Company,Countryside Company,New value,,New,New
+653,29827,"29827,00",New value,,New,Valerie Hendricks,Valerie Hendricks,New value,,New,First Bike Store,First Bike Store,New value,,New,New
+654,29830,"29830,00",New value,,New,Kari Hensien,Kari Hensien,New value,,New,General Department Stores,General Department Stores,New value,,New,New
+655,29831,"29831,00",New value,,New,Irene Hernandez,Irene Hernandez,New value,,New,Operational Manufacturing,Operational Manufacturing,New value,,New,New
+656,29832,"29832,00",New value,,New,Jésus Hernandez,Jésus Hernandez,New value,,New,Online Bike Warehouse,Online Bike Warehouse,New value,,New,New
+657,29834,"29834,00",New value,,New,Cheryl Herring,Cheryl Herring,New value,,New,Small Bike Shop,Small Bike Shop,New value,,New,New
+658,29835,"29835,00",New value,,New,Ronald Heymsfield,Ronald Heymsfield,New value,,New,Superior Hardware Distributors,Superior Hardware Distributors,New value,,New,New
+659,29840,"29840,00",New value,,New,Andrew Hill,Andrew Hill,New value,,New,Eastside Parts Shop,Eastside Parts Shop,New value,,New,New
+660,29842,"29842,00",New value,,New,Mike Hines,Mike Hines,New value,,New,First Cycle Store,First Cycle Store,New value,,New,New
+661,29843,"29843,00",New value,,New,Matthew Hink,Matthew Hink,New value,,New,Running and Cycling Gear,Running and Cycling Gear,New value,,New,New
+662,29847,"29847,00",New value,,New,David Hodgson,David Hodgson,New value,,New,Good Toys,Good Toys,New value,,New,New
+663,29848,"29848,00",New value,,New,Helge Hoeing,Helge Hoeing,New value,,New,Little Bicycle Supply Shop,Little Bicycle Supply Shop,New value,,New,New
+664,29850,"29850,00",New value,,New,Bob Hodges,Bob Hodges,New value,,New,All Seasons Sports Supply,All Seasons Sports Supply,New value,,New,New
+665,29851,"29851,00",New value,,New,Jean Holloway,Jean Holloway,New value,,New,Leisure Clearing House,Leisure Clearing House,New value,,New,New
+666,29852,"29852,00",New value,,New,Eddie Holmes,Eddie Holmes,New value,,New,The Commissary,The Commissary,New value,,New,New
+667,29853,"29853,00",New value,,New,Juanita Holman,Juanita Holman,New value,,New,Affordable Sports Equipment,Affordable Sports Equipment,New value,,New,New
+668,29854,"29854,00",New value,,New,Peter Houston,Peter Houston,New value,,New,Local Sales and Rental,Local Sales and Rental,New value,,New,New
+669,29855,"29855,00",New value,,New,Curtis Howard,Curtis Howard,New value,,New,Economy Center,Economy Center,New value,,New,New
+670,29857,"29857,00",New value,,New,Janice Hows,Janice Hows,New value,,New,Area Sheet Metal Supply,Area Sheet Metal Supply,New value,,New,New
+671,29858,"29858,00",New value,,New,George Huckaby,George Huckaby,New value,,New,Synthetic Materials Manufacturing,Synthetic Materials Manufacturing,New value,,New,New
+672,29859,"29859,00",New value,,New,Joshua Huff,Joshua Huff,New value,,New,Rural Sales and Service,Rural Sales and Service,New value,,New,New
+673,29860,"29860,00",New value,,New,Arlene Huff,Arlene Huff,New value,,New,Tubeless Tire Company,Tubeless Tire Company,New value,,New,New
+674,29861,"29861,00",New value,,New,Phyllis Huntsman,Phyllis Huntsman,New value,,New,Hardware Components,Hardware Components,New value,,New,New
+675,29862,"29862,00",New value,,New,Lawrence Hurkett,Lawrence Hurkett,New value,,New,Retail Sporting Goods,Retail Sporting Goods,New value,,New,New
+676,29863,"29863,00",New value,,New,Ryan Ihrig,Ryan Ihrig,New value,,New,Efficient Cycling,Efficient Cycling,New value,,New,New
+677,29864,"29864,00",New value,,New,Beth Inghram,Beth Inghram,New value,,New,General Industries,General Industries,New value,,New,New
+678,29865,"29865,00",New value,,New,Lucio Iallo,Lucio Iallo,New value,,New,Highway Bike Shop,Highway Bike Shop,New value,,New,New
+679,29866,"29866,00",New value,,New,Richard Irwin,Richard Irwin,New value,,New,Rental Bikes,Rental Bikes,New value,,New,New
+680,29867,"29867,00",New value,,New,Erik Ismert,Erik Ismert,New value,,New,Roving Sports,Roving Sports,New value,,New,New
+681,29868,"29868,00",New value,,New,Denean Ison,Denean Ison,New value,,New,Express Bike Services,Express Bike Services,New value,,New,New
+682,29870,"29870,00",New value,,New,Bronson Jacobs,Bronson Jacobs,New value,,New,Retail Discount Store,Retail Discount Store,New value,,New,New
+683,29871,"29871,00",New value,,New,Eric Jacobsen,Eric Jacobsen,New value,,New,Vale Riding Supplies,Vale Riding Supplies,New value,,New,New
+684,29872,"29872,00",New value,,New,Jodan Jacobson,Jodan Jacobson,New value,,New,A Great Bicycle Company,A Great Bicycle Company,New value,,New,New
+685,29873,"29873,00",New value,,New,Mary Alexander,Mary Alexander,New value,,New,Certified Bicycle Supply,Certified Bicycle Supply,New value,,New,New
+686,29874,"29874,00",New value,,New,David Jaffe,David Jaffe,New value,,New,Exceptional Cycle Services,Exceptional Cycle Services,New value,,New,New
+687,29876,"29876,00",New value,,New,Vance Johns,Vance Johns,New value,,New,Leisure Activities,Leisure Activities,New value,,New,New
+688,29877,"29877,00",New value,,New,Joyce Jarvis,Joyce Jarvis,New value,,New,Paints and Solvents Company,Paints and Solvents Company,New value,,New,New
+689,29879,"29879,00",New value,,New,Stephen Jiang,Stephen Jiang,New value,,New,Bikes for Kids and Adults,Bikes for Kids and Adults,New value,,New,New
+690,29881,"29881,00",New value,,New,Danielle Johnson,Danielle Johnson,New value,,New,Home Town Bike Store,Home Town Bike Store,New value,,New,New
+691,29883,"29883,00",New value,,New,Barry Johnson,Barry Johnson,New value,,New,Sample Bike Store,Sample Bike Store,New value,,New,New
+692,29884,"29884,00",New value,,New,Brian Johnson,Brian Johnson,New value,,New,Extras Sporting Goods,Extras Sporting Goods,New value,,New,New
+693,29885,"29885,00",New value,,New,David Johnson,David Johnson,New value,,New,Sure & Reliable Sporting Goods,Sure & Reliable Sporting Goods,New value,,New,New
+694,29889,"29889,00",New value,,New,Jean Jordan,Jean Jordan,New value,,New,Separate Parts Corporation,Separate Parts Corporation,New value,,New,New
+695,29890,"29890,00",New value,,New,Peggy Justice,Peggy Justice,New value,,New,Basic Bike Company,Basic Bike Company,New value,,New,New
+696,29891,"29891,00",New value,,New,Diane Krane,Diane Krane,New value,,New,"Fabrikam Inc., West","Fabrikam Inc., West",New value,,New,New
+697,29892,"29892,00",New value,,New,Sandra Kitt,Sandra Kitt,New value,,New,Non-Slip Pedal Company,Non-Slip Pedal Company,New value,,New,New
+698,29893,"29893,00",New value,,New,Sandeep Kaliyath,Sandeep Kaliyath,New value,,New,Weekend Bike Tours,Weekend Bike Tours,New value,,New,New
+699,29895,"29895,00",New value,,New,Lori Kane,Lori Kane,New value,,New,General Supplies,General Supplies,New value,,New,New
+700,29897,"29897,00",New value,,New,Kay Krane,Kay Krane,New value,,New,Racing Toys,Racing Toys,New value,,New,New
+701,29898,"29898,00",New value,,New,Sandeep Katyal,Sandeep Katyal,New value,,New,Capable Sales and Service,Capable Sales and Service,New value,,New,New
+702,29900,"29900,00",New value,,New,Victor Kelley,Victor Kelley,New value,,New,Road Way Sales and Rental,Road Way Sales and Rental,New value,,New,New
+703,29901,"29901,00",New value,,New,John Kelly,John Kelly,New value,,New,Sturdy Toys,Sturdy Toys,New value,,New,New
+704,29902,"29902,00",New value,,New,Robert Kelly,Robert Kelly,New value,,New,Beneficial Exercises and Activities,Beneficial Exercises and Activities,New value,,New,New
+705,29903,"29903,00",New value,,New,Kevin Kennedy,Kevin Kennedy,New value,,New,Fad Outlet,Fad Outlet,New value,,New,New
+706,29904,"29904,00",New value,,New,Mary Kesslep,Mary Kesslep,New value,,New,Commerce Bicycle Specialists,Commerce Bicycle Specialists,New value,,New,New
+707,29905,"29905,00",New value,,New,Elizabeth Keyser,Elizabeth Keyser,New value,,New,Acceptable Sales & Service,Acceptable Sales & Service,New value,,New,New
+708,29906,"29906,00",New value,,New,Imtiaz Khan,Imtiaz Khan,New value,,New,District Mall,District Mall,New value,,New,New
+709,29907,"29907,00",New value,,New,Karan Khanna,Karan Khanna,New value,,New,Fitness Supplies,Fitness Supplies,New value,,New,New
+710,29908,"29908,00",New value,,New,Joe Kim,Joe Kim,New value,,New,Mail Market,Mail Market,New value,,New,New
+711,29910,"29910,00",New value,,New,Shane Kim,Shane Kim,New value,,New,Twelfth Bike Store,Twelfth Bike Store,New value,,New,New
+712,29911,"29911,00",New value,,New,Tim Kim,Tim Kim,New value,,New,Consolidated Messenger,Consolidated Messenger,New value,,New,New
+713,29913,"29913,00",New value,,New,Anton Kirilov,Anton Kirilov,New value,,New,Field Trip Store,Field Trip Store,New value,,New,New
+714,29914,"29914,00",New value,,New,Christian Kleinerman,Christian Kleinerman,New value,,New,Finish and Sealant Products,Finish and Sealant Products,New value,,New,New
+715,29915,"29915,00",New value,,New,Andrew Kobylinski,Andrew Kobylinski,New value,,New,Finer Parts Shop,Finer Parts Shop,New value,,New,New
+716,29918,"29918,00",New value,,New,Kirk King,Kirk King,New value,,New,Up-To-Date Sports,Up-To-Date Sports,New value,,New,New
+717,29919,"29919,00",New value,,New,Eugene Kogan,Eugene Kogan,New value,,New,Mountain Bike Center,Mountain Bike Center,New value,,New,New
+718,29920,"29920,00",New value,,New,Scott Konersmann,Scott Konersmann,New value,,New,Specialty Sports Store,Specialty Sports Store,New value,,New,New
+719,29921,"29921,00",New value,,New,Joy Koski,Joy Koski,New value,,New,Scooters and Bikes Store,Scooters and Bikes Store,New value,,New,New
+720,29922,"29922,00",New value,,New,Pamala Kotc,Pamala Kotc,New value,,New,Closest Bicycle Store,Closest Bicycle Store,New value,,New,New
+721,29924,"29924,00",New value,,New,Mitch Kennedy,Mitch Kennedy,New value,,New,Reasonable Bicycle Sales,Reasonable Bicycle Sales,New value,,New,New
+722,29925,"29925,00",New value,,New,Margaret Krupka,Margaret Krupka,New value,,New,Outdoor Sports Supply,Outdoor Sports Supply,New value,,New,New
+723,29926,"29926,00",New value,,New,Deepak Kumar,Deepak Kumar,New value,,New,Outdoor Aerobic Systems Company,Outdoor Aerobic Systems Company,New value,,New,New
+724,29928,"29928,00",New value,,New,Vamsi Kuppa,Vamsi Kuppa,New value,,New,Metal Clearing House,Metal Clearing House,New value,,New,New
+725,29929,"29929,00",New value,,New,Jeffrey Kurtz,Jeffrey Kurtz,New value,,New,Many Bikes Store,Many Bikes Store,New value,,New,New
+726,29930,"29930,00",New value,,New,Peter Kurniawan,Peter Kurniawan,New value,,New,Largest Bike Store,Largest Bike Store,New value,,New,New
+727,29931,"29931,00",New value,,New,Eric Lang,Eric Lang,New value,,New,Kickstands and Accessories Company,Kickstands and Accessories Company,New value,,New,New
+728,29932,"29932,00",New value,,New,Rebecca Laszlo,Rebecca Laszlo,New value,,New,Instruments and Parts Company,Instruments and Parts Company,New value,,New,New
+729,29934,"29934,00",New value,,New,David Lawrence,David Lawrence,New value,,New,Gear-Shift Bikes Limited,Gear-Shift Bikes Limited,New value,,New,New
+730,29935,"29935,00",New value,,New,Elsa Leavitt,Elsa Leavitt,New value,,New,Frugal Bike Shop,Frugal Bike Shop,New value,,New,New
+731,29936,"29936,00",New value,,New,Michael Lee,Michael Lee,New value,,New,Family Entertainment Center,Family Entertainment Center,New value,,New,New
+732,29937,"29937,00",New value,,New,Marjorie Lee,Marjorie Lee,New value,,New,Go-cart and Bike Specialists,Go-cart and Bike Specialists,New value,,New,New
+733,29938,"29938,00",New value,,New,Frank Campbell,Frank Campbell,New value,,New,Trailblazing Sports,Trailblazing Sports,New value,,New,New
+734,29939,"29939,00",New value,,New,Mark Lee,Mark Lee,New value,,New,Racing Partners,Racing Partners,New value,,New,New
+735,29941,"29941,00",New value,,New,Jolie Lenehan,Jolie Lenehan,New value,,New,Exhibition Showroom,Exhibition Showroom,New value,,New,New
+736,29942,"29942,00",New value,,New,Roger Lengel,Roger Lengel,New value,,New,Authorized Bike Sales and Rental,Authorized Bike Sales and Rental,New value,,New,New
+737,29943,"29943,00",New value,,New,A. Leonetti,A. Leonetti,New value,,New,Two-Seater Bikes,Two-Seater Bikes,New value,,New,New
+738,29944,"29944,00",New value,,New,Bonnie Lepro,Bonnie Lepro,New value,,New,More Bikes!,More Bikes!,New value,,New,New
+739,29946,"29946,00",New value,,New,Linda Leste,Linda Leste,New value,,New,National Manufacturing,National Manufacturing,New value,,New,New
+740,29948,"29948,00",New value,,New,Elsie Lewin,Elsie Lewin,New value,,New,Town Industries,Town Industries,New value,,New,New
+741,29949,"29949,00",New value,,New,George Li,George Li,New value,,New,Security Racks and Locks Wholesalers,Security Racks and Locks Wholesalers,New value,,New,New
+742,29950,"29950,00",New value,,New,Yale Li,Yale Li,New value,,New,Rapid Bikes,Rapid Bikes,New value,,New,New
+743,29952,"29952,00",New value,,New,Yuhong Li,Yuhong Li,New value,,New,Nearby Sporting Goods,Nearby Sporting Goods,New value,,New,New
+744,29953,"29953,00",New value,,New,Joseph Lique,Joseph Lique,New value,,New,Front Sporting Goods,Front Sporting Goods,New value,,New,New
+745,29954,"29954,00",New value,,New,Paulo Lisboa,Paulo Lisboa,New value,,New,Elite Bikes,Elite Bikes,New value,,New,New
+746,29955,"29955,00",New value,,New,David Liu,David Liu,New value,,New,Catalog Store,Catalog Store,New value,,New,New
+747,29956,"29956,00",New value,,New,Jinghao Liu,Jinghao Liu,New value,,New,Chic Department Stores,Chic Department Stores,New value,,New,New
+748,29957,"29957,00",New value,,New,Kevin Liu,Kevin Liu,New value,,New,Eastside Department Store,Eastside Department Store,New value,,New,New
+749,29959,"29959,00",New value,,New,Todd Logan,Todd Logan,New value,,New,Cycle Merchants,Cycle Merchants,New value,,New,New
+750,29962,"29962,00",New value,,New,Sharon Looney,Sharon Looney,New value,,New,Fitness Hotel,Fitness Hotel,New value,,New,New
+751,29964,"29964,00",New value,,New,Anita Lucerne,Anita Lucerne,New value,,New,Grand Industries,Grand Industries,New value,,New,New
+752,29967,"29967,00",New value,,New,Judy Lundahl,Judy Lundahl,New value,,New,Leading Sales & Repair,Leading Sales & Repair,New value,,New,New
+753,29969,"29969,00",New value,,New,Robert Lyeba,Robert Lyeba,New value,,New,Tandem Sales and Service,Tandem Sales and Service,New value,,New,New
+754,29971,"29971,00",New value,,New,Robert Lyon,Robert Lyon,New value,,New,Reliable Retail Center,Reliable Retail Center,New value,,New,New
+755,29973,"29973,00",New value,,New,Denise Maccietto,Denise Maccietto,New value,,New,Friendly Bike Shop,Friendly Bike Shop,New value,,New,New
+756,29974,"29974,00",New value,,New,Scott MacDonald,Scott MacDonald,New value,,New,Yellow Bicycle Company,Yellow Bicycle Company,New value,,New,New
+757,29975,"29975,00",New value,,New,Walter Mays,Walter Mays,New value,,New,Sports Products Store,Sports Products Store,New value,,New,New
+758,29978,"29978,00",New value,,New,Ajay Manchepalli,Ajay Manchepalli,New value,,New,Shipping Specialists,Shipping Specialists,New value,,New,New
+759,29980,"29980,00",New value,,New,Tomas Manzanares,Tomas Manzanares,New value,,New,Authentic Sales and Service,Authentic Sales and Service,New value,,New,New
+760,29981,"29981,00",New value,,New,Kathy Marcovecchio,Kathy Marcovecchio,New value,,New,Official Parts Shop,Official Parts Shop,New value,,New,New
+761,29982,"29982,00",New value,,New,Melissa Marple,Melissa Marple,New value,,New,Discount Tours,Discount Tours,New value,,New,New
+762,29983,"29983,00",New value,,New,Cecelia Marshall,Cecelia Marshall,New value,,New,Tire Exchange,Tire Exchange,New value,,New,New
+763,29985,"29985,00",New value,,New,Linda Martin,Linda Martin,New value,,New,Oils and Fluids Warehouse,Oils and Fluids Warehouse,New value,,New,New
+764,29987,"29987,00",New value,,New,Frank Mart¡nez,Frank Mart¡nez,New value,,New,Rally Master Company Inc,Rally Master Company Inc,New value,,New,New
+765,29988,"29988,00",New value,,New,Steve Masters,Steve Masters,New value,,New,Professional Cyclists,Professional Cyclists,New value,,New,New
+766,29990,"29990,00",New value,,New,Jennifer Maxham,Jennifer Maxham,New value,,New,Exclusive Bicycle Mart,Exclusive Bicycle Mart,New value,,New,New
+767,29991,"29991,00",New value,,New,Chris Maxwell,Chris Maxwell,New value,,New,City Manufacturing,City Manufacturing,New value,,New,New
+768,29992,"29992,00",New value,,New,Sandra Maynard,Sandra Maynard,New value,,New,Bike Dealers Association,Bike Dealers Association,New value,,New,New
+769,29994,"29994,00",New value,,New,Robin McGuigan,Robin McGuigan,New value,,New,"Health Spa, Limited","Health Spa, Limited",New value,,New,New
+770,29997,"29997,00",New value,,New,Lola McCarthy,Lola McCarthy,New value,,New,Closeout Boutique,Closeout Boutique,New value,,New,New
+771,29998,"29998,00",New value,,New,Jane McCarty,Jane McCarty,New value,,New,Bicycle Merchandise Warehouse,Bicycle Merchandise Warehouse,New value,,New,New
+772,30000,"30000,00",New value,,New,James McCoy,James McCoy,New value,,New,Leather Seat Factory,Leather Seat Factory,New value,,New,New
+773,30003,"30003,00",New value,,New,Yvonne McKay,Yvonne McKay,New value,,New,Practical Bike Supply Company,Practical Bike Supply Company,New value,,New,New
+774,30004,"30004,00",New value,,New,Nkenge McLin,Nkenge McLin,New value,,New,Some Discount Store,Some Discount Store,New value,,New,New
+775,30005,"30005,00",New value,,New,Nancy McPhearson,Nancy McPhearson,New value,,New,Variety Cycling,Variety Cycling,New value,,New,New
+776,30007,"30007,00",New value,,New,Raquel Mello,Raquel Mello,New value,,New,Remote Bicycle Specialists,Remote Bicycle Specialists,New value,,New,New
+777,30008,"30008,00",New value,,New,R. Morgan Mendoza,R. Morgan Mendoza,New value,,New,Friendly Neighborhood Bikes,Friendly Neighborhood Bikes,New value,,New,New
+778,30010,"30010,00",New value,,New,Stephen Mew,Stephen Mew,New value,,New,Recommended Bicycles,Recommended Bicycles,New value,,New,New
+779,30012,"30012,00",New value,,New,Helen Meyer,Helen Meyer,New value,,New,Alpine Ski House,Alpine Ski House,New value,,New,New
+780,30016,"30016,00",New value,,New,Thomas Michaels,Thomas Michaels,New value,,New,Seats and Saddles Company,Seats and Saddles Company,New value,,New,New
+781,30018,"30018,00",New value,,New,Virginia Miller,Virginia Miller,New value,,New,All Cycle Shop,All Cycle Shop,New value,,New,New
+782,30019,"30019,00",New value,,New,Matthew Miller,Matthew Miller,New value,,New,Tachometers and Accessories,Tachometers and Accessories,New value,,New,New
+783,30021,"30021,00",New value,,New,Ben Miller,Ben Miller,New value,,New,Low Price Cycles,Low Price Cycles,New value,,New,New
+784,30022,"30022,00",New value,,New,Dylan Miller,Dylan Miller,New value,,New,Metropolitan Manufacturing,Metropolitan Manufacturing,New value,,New,New
+785,30023,"30023,00",New value,,New,Frank Miller,Frank Miller,New value,,New,Orange Bicycle Company,Orange Bicycle Company,New value,,New,New
+786,30024,"30024,00",New value,,New,Neva Mitchell,Neva Mitchell,New value,,New,Riding Associates,Riding Associates,New value,,New,New
+787,30025,"30025,00",New value,,New,Linda Mitchell,Linda Mitchell,New value,,New,Essential Bike Works,Essential Bike Works,New value,,New,New
+788,30027,"30027,00",New value,,New,Joseph Mitzner,Joseph Mitzner,New value,,New,Engineered Bike Systems,Engineered Bike Systems,New value,,New,New
+789,30028,"30028,00",New value,,New,Laura Steele,Laura Steele,New value,,New,Professional Containers and Packaging Co.,Professional Containers and Packaging Co.,New value,,New,New
+790,30029,"30029,00",New value,,New,Shanay Steelman,Shanay Steelman,New value,,New,One Bike Company,One Bike Company,New value,,New,New
+791,30030,"30030,00",New value,,New,Stefano Stefani,Stefano Stefani,New value,,New,Cycling Goods,Cycling Goods,New value,,New,New
+792,30031,"30031,00",New value,,New,Alan Steiner,Alan Steiner,New value,,New,Cycle Clearance,Cycle Clearance,New value,,New,New
+793,30032,"30032,00",New value,,New,Derik Stenerson,Derik Stenerson,New value,,New,Black Bicycle Company,Black Bicycle Company,New value,,New,New
+794,30033,"30033,00",New value,,New,Vassar Stern,Vassar Stern,New value,,New,Transport Bikes,Transport Bikes,New value,,New,New
+795,30034,"30034,00",New value,,New,Wathalee Steuber,Wathalee Steuber,New value,,New,Sellers of Cycles,Sellers of Cycles,New value,,New,New
+796,30035,"30035,00",New value,,New,Alice Steiner,Alice Steiner,New value,,New,Maintenance and Repair for Bicycles,Maintenance and Repair for Bicycles,New value,,New,New
+797,30036,"30036,00",New value,,New,Liza Marie Stevens,Liza Marie Stevens,New value,,New,Fitness Department Stores,Fitness Department Stores,New value,,New,New
+798,30037,"30037,00",New value,,New,Jim Stewart,Jim Stewart,New value,,New,Famous Bike Shop,Famous Bike Shop,New value,,New,New
+799,30039,"30039,00",New value,,New,Robert Stotka,Robert Stotka,New value,,New,Gift and Toy Store,Gift and Toy Store,New value,,New,New
+800,30040,"30040,00",New value,,New,Kayla Stotler,Kayla Stotler,New value,,New,Major Sporting Goods,Major Sporting Goods,New value,,New,New
+801,30042,"30042,00",New value,,New,Ruby Sue Styles,Ruby Sue Styles,New value,,New,Major Cycling,Major Cycling,New value,,New,New
+802,30044,"30044,00",New value,,New,Gary Suess,Gary Suess,New value,,New,Downhill Bicycle Specialists,Downhill Bicycle Specialists,New value,,New,New
+803,30045,"30045,00",New value,,New,Ruth Suffin,Ruth Suffin,New value,,New,Bike Experts,Bike Experts,New value,,New,New
+804,30046,"30046,00",New value,,New,Elizabeth Sullivan,Elizabeth Sullivan,New value,,New,Extraordinary Bike Works,Extraordinary Bike Works,New value,,New,New
+805,30047,"30047,00",New value,,New,Michael Sullivan,Michael Sullivan,New value,,New,Valley Bicycle Distributors,Valley Bicycle Distributors,New value,,New,New
+806,30048,"30048,00",New value,,New,Marcia Sultan,Marcia Sultan,New value,,New,Top Sports Supply,Top Sports Supply,New value,,New,New
+807,30050,"30050,00",New value,,New,Krishna Sunkammurali,Krishna Sunkammurali,New value,,New,Metropolitan Bicycle Supply,Metropolitan Bicycle Supply,New value,,New,New
+808,30051,"30051,00",New value,,New,Brad Sutton,Brad Sutton,New value,,New,Honest Repair Service,Honest Repair Service,New value,,New,New
+809,30052,"30052,00",New value,,New,Abraham Swearengin,Abraham Swearengin,New value,,New,Wheel Gallery,Wheel Gallery,New value,,New,New
+810,30053,"30053,00",New value,,New,Katherine Swan,Katherine Swan,New value,,New,Top Bike Market,Top Bike Market,New value,,New,New
+811,30055,"30055,00",New value,,New,Julie Taft-Rider,Julie Taft-Rider,New value,,New,Bicycle Lines Distributors,Bicycle Lines Distributors,New value,,New,New
+812,30056,"30056,00",New value,,New,Clarence Tatman,Clarence Tatman,New value,,New,Sparkling Paint and Finishes,Sparkling Paint and Finishes,New value,,New,New
+813,30058,"30058,00",New value,,New,Mike Taylor,Mike Taylor,New value,,New,Plastic Parts Company,Plastic Parts Company,New value,,New,New
+814,30061,"30061,00",New value,,New,Chad Tedford,Chad Tedford,New value,,New,Big Cycle Mall,Big Cycle Mall,New value,,New,New
+815,30063,"30063,00",New value,,New,Vanessa Tench,Vanessa Tench,New value,,New,Eighth Bike Store,Eighth Bike Store,New value,,New,New
+816,30064,"30064,00",New value,,New,Judy Thames,Judy Thames,New value,,New,Demand Distributors,Demand Distributors,New value,,New,New
+817,30067,"30067,00",New value,,New,Phyllis Thomas,Phyllis Thomas,New value,,New,Red Bicycle Company,Red Bicycle Company,New value,,New,New
+818,30069,"30069,00",New value,,New,Donald Thompson,Donald Thompson,New value,,New,Trendy Department Stores,Trendy Department Stores,New value,,New,New
+819,30070,"30070,00",New value,,New,Kendra Thompson,Kendra Thompson,New value,,New,Vintage Sport Boutique,Vintage Sport Boutique,New value,,New,New
+820,30071,"30071,00",New value,,New,Daniel Thompson,Daniel Thompson,New value,,New,Travel Sports,Travel Sports,New value,,New,New
+821,30072,"30072,00",New value,,New,Andrea Thomsen,Andrea Thomsen,New value,,New,West Side Mart,West Side Mart,New value,,New,New
+822,30074,"30074,00",New value,,New,Yuping Tian,Yuping Tian,New value,,New,Tenth Bike Store,Tenth Bike Store,New value,,New,New
+823,30076,"30076,00",New value,,New,Diane Tibbott,Diane Tibbott,New value,,New,Fun Times Club,Fun Times Club,New value,,New,New
+824,30080,"30080,00",New value,,New,Delia Toone,Delia Toone,New value,,New,Wingtip Toys,Wingtip Toys,New value,,New,New
+825,30083,"30083,00",New value,,New,Glenn Track,Glenn Track,New value,,New,Active Life Toys,Active Life Toys,New value,,New,New
+826,30087,"30087,00",New value,,New,Billy Trent,Billy Trent,New value,,New,Quick Parts and Service,Quick Parts and Service,New value,,New,New
+827,30089,"30089,00",New value,,New,Michael John Troyer,Michael John Troyer,New value,,New,Thrifty Parts and Sales,Thrifty Parts and Sales,New value,,New,New
+828,30090,"30090,00",New value,,New,Christie Trujillo,Christie Trujillo,New value,,New,A Typical Bike Shop,A Typical Bike Shop,New value,,New,New
+829,30093,"30093,00",New value,,New,Phyllis Tuffield,Phyllis Tuffield,New value,,New,Fasteners & Bolts Outlet,Fasteners & Bolts Outlet,New value,,New,New
+830,30094,"30094,00",New value,,New,Sairaj Uddin,Sairaj Uddin,New value,,New,Quantity Discounts,Quantity Discounts,New value,,New,New
+831,30095,"30095,00",New value,,New,Sunil Uppal,Sunil Uppal,New value,,New,Swift Cycles,Swift Cycles,New value,,New,New
+832,30098,"30098,00",New value,,New,Esther Valle,Esther Valle,New value,,New,Large Bike Shop,Large Bike Shop,New value,,New,New
+833,30100,"30100,00",New value,,New,Jessie Valerio,Jessie Valerio,New value,,New,Wire Baskets and Parts,Wire Baskets and Parts,New value,,New,New
+834,30102,"30102,00",New value,,New,Roger Van Houten,Roger Van Houten,New value,,New,Sports Store,Sports Store,New value,,New,New
+835,30104,"30104,00",New value,,New,Rose Vandenouer,Rose Vandenouer,New value,,New,Extended Tours,Extended Tours,New value,,New,New
+836,30105,"30105,00",New value,,New,Gregory Vanderbout,Gregory Vanderbout,New value,,New,Convenient Sales and Service,Convenient Sales and Service,New value,,New,New
+837,30106,"30106,00",New value,,New,Michael Vanderhyde,Michael Vanderhyde,New value,,New,Solid Bike Parts,Solid Bike Parts,New value,,New,New
+838,30107,"30107,00",New value,,New,Margaret Vanderkamp,Margaret Vanderkamp,New value,,New,Permanent Finish Products,Permanent Finish Products,New value,,New,New
+839,30108,"30108,00",New value,,New,Kara Vanderlinden,Kara Vanderlinden,New value,,New,Mercantile Outlet,Mercantile Outlet,New value,,New,New
+840,30109,"30109,00",New value,,New,Nieves Vargas,Nieves Vargas,New value,,New,Exhilarating Cycles,Exhilarating Cycles,New value,,New,New
+841,30110,"30110,00",New value,,New,Gary Vargas,Gary Vargas,New value,,New,Exercise Center,Exercise Center,New value,,New,New
+842,30111,"30111,00",New value,,New,Ranjit Varkey Chudukatil,Ranjit Varkey Chudukatil,New value,,New,Great Bicycle Supply,Great Bicycle Supply,New value,,New,New
+843,30112,"30112,00",New value,,New,Patricia Vasquez,Patricia Vasquez,New value,,New,Mail-Order Outlet,Mail-Order Outlet,New value,,New,New
+844,30113,"30113,00",New value,,New,Raja Venugopal,Raja Venugopal,New value,,New,Nearby Cycle Shop,Nearby Cycle Shop,New value,,New,New
+845,30115,"30115,00",New value,,New,Dora Verdad,Dora Verdad,New value,,New,Retreat Inn,Retreat Inn,New value,,New,New
+846,30116,"30116,00",New value,,New,Wanda Vernon,Wanda Vernon,New value,,New,Technical Parts Manufacturing,Technical Parts Manufacturing,New value,,New,New
+847,30117,"30117,00",New value,,New,Robert Vessa,Robert Vessa,New value,,New,Totes & Baskets Company,Totes & Baskets Company,New value,,New,New
+848,30118,"30118,00",New value,,New,Caroline Vicknair,Caroline Vicknair,New value,,New,World of Bikes,World of Bikes,New value,,New,New
